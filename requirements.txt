@@ -1,0 +1,13 @@
+pandas
+numpy
+requests
+scipy
+scikit-learn
+statsmodels
+python-dotenv
+pytrends
+beautifulsoup4
+lxml
+streamlit
+plotly
+google-ads

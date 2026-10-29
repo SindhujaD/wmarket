@@ -1,0 +1,77 @@
+season,team_id,team_name,average_attendance,average_capacity,capacity_data_quality
+2021,ATL,Atlanta Dream,1347,3500,normal
+2021,CHI,Chicago Sky,3187,10387,normal
+2021,CON,Connecticut Sun,2931,9323,normal
+2021,DAL,Dallas Wings,2101,7000,normal
+2021,IND,Indiana Fever,0,0,closed_to_attendance
+2021,LVA,Las Vegas Aces,3127,12000,normal
+2021,LAS,Los Angeles Sparks,1145,13141,normal
+2021,MIN,Minnesota Lynx,2696,18798,normal
+2021,NYL,New York Liberty,1757,17732,normal
+2021,PHX,Phoenix Mercury,5849,17071,normal
+2021,SEA,Seattle Storm,2607,18300,normal
+2021,WAS,Washington Mystics,2113,4200,normal
+2022,ATL,Atlanta Dream,2682,3500,normal
+2022,CHI,Chicago Sky,7180,10387,normal
+2022,CON,Connecticut Sun,5712,9323,normal
+2022,DAL,Dallas Wings,3788,7000,normal
+2022,IND,Indiana Fever,1776,17923,normal
+2022,LVA,Las Vegas Aces,5607,12000,normal
+2022,LAS,Los Angeles Sparks,5653,13141,normal
+2022,MIN,Minnesota Lynx,7444,18798,normal
+2022,NYL,New York Liberty,5327,17732,normal
+2022,PHX,Phoenix Mercury,7974,17071,normal
+2022,SEA,Seattle Storm,10632,18300,normal
+2022,WAS,Washington Mystics,3983,4200,normal
+2023,ATL,Atlanta Dream,3006,3500,normal
+2023,CHI,Chicago Sky,7242,10387,normal
+2023,CON,Connecticut Sun,6244,9323,normal
+2023,DAL,Dallas Wings,4641,7000,normal
+2023,IND,Indiana Fever,4067,17923,normal
+2023,LVA,Las Vegas Aces,9551,12000,normal
+2023,LAS,Los Angeles Sparks,6554,13141,normal
+2023,MIN,Minnesota Lynx,7777,18798,normal
+2023,NYL,New York Liberty,7777,17732,normal
+2023,PHX,Phoenix Mercury,9197,17071,normal
+2023,SEA,Seattle Storm,8929,18300,normal
+2023,WAS,Washington Mystics,4391,4990,multiple_venues
+2024,ATL,Atlanta Dream,3006,4854,multiple_venues
+2024,CHI,Chicago Sky,8757,10387,normal
+2024,CON,Connecticut Sun,8451,9323,normal
+2024,DAL,Dallas Wings,5911,7000,normal
+2024,IND,Indiana Fever,17036,17923,normal
+2024,LVA,Las Vegas Aces,11283,12000,normal
+2024,LAS,Los Angeles Sparks,11045,13141,normal
+2024,MIN,Minnesota Lynx,9292,18798,normal
+2024,NYL,New York Liberty,12730,171732,normal
+2024,PHX,Phoenix Mercury,10715,17071,normal
+2024,SEA,Seattle Storm,11184,18300,normal
+2024,WAS,Washington Mystics,6542,7431,multiple_venues
+2025,ATL,Atlanta Dream,4480,4731,multiple_venues
+2025,CHI,Chicago Sky,9073,10387,normal
+2025,CON,Connecticut Sun,8653,9323,normal
+2025,DAL,Dallas Wings,7273,8276,multiple_venues
+2025,GSV,Golden State Valkyries,18064,18064,normal
+2025,IND,Indiana Fever,16560.17923,normal
+2025,LVA,Las Vegas Aces,11553,12000,normal
+2025,LAS,Los Angeles Sparks,12441,13141,normal
+2025,MIN,Minnesota Lynx,9958,18798,normal
+2025,NYL,New York Liberty,16323,17732,normal
+2025,PHX,Phoenix Mercury,11306,17071,normal
+2025,SEA,Seattle Storm,11835,18300,normal
+2025,WAS,Washington Mystics,5303,5618,multiple_venues
+2026,ATL,Atlanta Dream,6928,7193s,multiple_venues
+2026,CHI,Chicago Sky,8237,10387,normal
+2026,CON,Connecticut Sun,8822,9323,normal
+2026,DAL,Dallas Wings,7658,8914,multiple_venues
+2026,GSV,Golden State Valkyries,18064,18064,normal
+2026,IND,Indiana Fever,16426,17923,normal
+2026,LVA,Las Vegas Aces,11206,12000,normal
+2026,LAS,Los Angeles Sparks,12919,13141,normal
+2026,MIN,Minnesota Lynx,12351,18798,normal
+2026,NYL,New York Liberty,16481,17732,normal
+2026,PHX,Phoenix Mercury,11128,17071,normal
+2026,POR,Portland Fire,14516,19393,normal
+2026,SEA,Seattle Storm,12142,18300,normal
+2026,TOR,Toronto Tempo,10828,12297,normal
+2026,WAS,Washington Mystics,4454,4934,multiple_venues
