@@ -1,0 +1,981 @@
+date,year,month,team_id,team_name,dma_name,geo_code,trends_interest
+2021-01-01,2021,1,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-02-01,2021,2,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-03-01,2021,3,ATL,Atlanta Dream,Atlanta GA,524,1
+2021-04-01,2021,4,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-05-01,2021,5,ATL,Atlanta Dream,Atlanta GA,524,3
+2021-06-01,2021,6,ATL,Atlanta Dream,Atlanta GA,524,3
+2021-07-01,2021,7,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-08-01,2021,8,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-09-01,2021,9,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-10-01,2021,10,ATL,Atlanta Dream,Atlanta GA,524,2
+2021-11-01,2021,11,ATL,Atlanta Dream,Atlanta GA,524,1
+2021-12-01,2021,12,ATL,Atlanta Dream,Atlanta GA,524,1
+2022-01-01,2022,1,ATL,Atlanta Dream,Atlanta GA,524,2
+2022-02-01,2022,2,ATL,Atlanta Dream,Atlanta GA,524,2
+2022-03-01,2022,3,ATL,Atlanta Dream,Atlanta GA,524,2
+2022-04-01,2022,4,ATL,Atlanta Dream,Atlanta GA,524,3
+2022-05-01,2022,5,ATL,Atlanta Dream,Atlanta GA,524,6
+2022-06-01,2022,6,ATL,Atlanta Dream,Atlanta GA,524,7
+2022-07-01,2022,7,ATL,Atlanta Dream,Atlanta GA,524,6
+2022-08-01,2022,8,ATL,Atlanta Dream,Atlanta GA,524,4
+2022-09-01,2022,9,ATL,Atlanta Dream,Atlanta GA,524,2
+2022-10-01,2022,10,ATL,Atlanta Dream,Atlanta GA,524,2
+2022-11-01,2022,11,ATL,Atlanta Dream,Atlanta GA,524,2
+2022-12-01,2022,12,ATL,Atlanta Dream,Atlanta GA,524,2
+2023-01-01,2023,1,ATL,Atlanta Dream,Atlanta GA,524,2
+2023-02-01,2023,2,ATL,Atlanta Dream,Atlanta GA,524,2
+2023-03-01,2023,3,ATL,Atlanta Dream,Atlanta GA,524,2
+2023-04-01,2023,4,ATL,Atlanta Dream,Atlanta GA,524,3
+2023-05-01,2023,5,ATL,Atlanta Dream,Atlanta GA,524,5
+2023-06-01,2023,6,ATL,Atlanta Dream,Atlanta GA,524,7
+2023-07-01,2023,7,ATL,Atlanta Dream,Atlanta GA,524,7
+2023-08-01,2023,8,ATL,Atlanta Dream,Atlanta GA,524,5
+2023-09-01,2023,9,ATL,Atlanta Dream,Atlanta GA,524,4
+2023-10-01,2023,10,ATL,Atlanta Dream,Atlanta GA,524,2
+2023-11-01,2023,11,ATL,Atlanta Dream,Atlanta GA,524,1
+2023-12-01,2023,12,ATL,Atlanta Dream,Atlanta GA,524,2
+2024-01-01,2024,1,ATL,Atlanta Dream,Atlanta GA,524,2
+2024-02-01,2024,2,ATL,Atlanta Dream,Atlanta GA,524,2
+2024-03-01,2024,3,ATL,Atlanta Dream,Atlanta GA,524,2
+2024-04-01,2024,4,ATL,Atlanta Dream,Atlanta GA,524,7
+2024-05-01,2024,5,ATL,Atlanta Dream,Atlanta GA,524,11
+2024-06-01,2024,6,ATL,Atlanta Dream,Atlanta GA,524,14
+2024-07-01,2024,7,ATL,Atlanta Dream,Atlanta GA,524,6
+2024-08-01,2024,8,ATL,Atlanta Dream,Atlanta GA,524,8
+2024-09-01,2024,9,ATL,Atlanta Dream,Atlanta GA,524,7
+2024-10-01,2024,10,ATL,Atlanta Dream,Atlanta GA,524,2
+2024-11-01,2024,11,ATL,Atlanta Dream,Atlanta GA,524,2
+2024-12-01,2024,12,ATL,Atlanta Dream,Atlanta GA,524,1
+2025-01-01,2025,1,ATL,Atlanta Dream,Atlanta GA,524,3
+2025-02-01,2025,2,ATL,Atlanta Dream,Atlanta GA,524,3
+2025-03-01,2025,3,ATL,Atlanta Dream,Atlanta GA,524,3
+2025-04-01,2025,4,ATL,Atlanta Dream,Atlanta GA,524,4
+2025-05-01,2025,5,ATL,Atlanta Dream,Atlanta GA,524,11
+2025-06-01,2025,6,ATL,Atlanta Dream,Atlanta GA,524,10
+2025-07-01,2025,7,ATL,Atlanta Dream,Atlanta GA,524,8
+2025-08-01,2025,8,ATL,Atlanta Dream,Atlanta GA,524,10
+2025-09-01,2025,9,ATL,Atlanta Dream,Atlanta GA,524,10
+2025-10-01,2025,10,ATL,Atlanta Dream,Atlanta GA,524,2
+2025-11-01,2025,11,ATL,Atlanta Dream,Atlanta GA,524,2
+2025-12-01,2025,12,ATL,Atlanta Dream,Atlanta GA,524,2
+2026-01-01,2026,1,ATL,Atlanta Dream,Atlanta GA,524,2
+2026-02-01,2026,2,ATL,Atlanta Dream,Atlanta GA,524,2
+2026-03-01,2026,3,ATL,Atlanta Dream,Atlanta GA,524,3
+2026-04-01,2026,4,ATL,Atlanta Dream,Atlanta GA,524,11
+2026-05-01,2026,5,ATL,Atlanta Dream,Atlanta GA,524,17
+2026-06-01,2026,6,ATL,Atlanta Dream,Atlanta GA,524,18
+2026-07-01,2026,7,ATL,Atlanta Dream,Atlanta GA,524,14
+2026-08-01,2026,8,ATL,Atlanta Dream,Atlanta GA,524,19
+2026-09-01,2026,9,ATL,Atlanta Dream,Atlanta GA,524,13
+2026-10-01,2026,10,ATL,Atlanta Dream,Atlanta GA,524,100
+2021-01-01,2021,1,CHI,Chicago Sky,Chicago IL,602,5
+2021-02-01,2021,2,CHI,Chicago Sky,Chicago IL,602,7
+2021-03-01,2021,3,CHI,Chicago Sky,Chicago IL,602,5
+2021-04-01,2021,4,CHI,Chicago Sky,Chicago IL,602,8
+2021-05-01,2021,5,CHI,Chicago Sky,Chicago IL,602,14
+2021-06-01,2021,6,CHI,Chicago Sky,Chicago IL,602,15
+2021-07-01,2021,7,CHI,Chicago Sky,Chicago IL,602,11
+2021-08-01,2021,8,CHI,Chicago Sky,Chicago IL,602,13
+2021-09-01,2021,9,CHI,Chicago Sky,Chicago IL,602,18
+2021-10-01,2021,10,CHI,Chicago Sky,Chicago IL,602,100
+2021-11-01,2021,11,CHI,Chicago Sky,Chicago IL,602,9
+2021-12-01,2021,12,CHI,Chicago Sky,Chicago IL,602,8
+2022-01-01,2022,1,CHI,Chicago Sky,Chicago IL,602,8
+2022-02-01,2022,2,CHI,Chicago Sky,Chicago IL,602,11
+2022-03-01,2022,3,CHI,Chicago Sky,Chicago IL,602,10
+2022-04-01,2022,4,CHI,Chicago Sky,Chicago IL,602,11
+2022-05-01,2022,5,CHI,Chicago Sky,Chicago IL,602,27
+2022-06-01,2022,6,CHI,Chicago Sky,Chicago IL,602,30
+2022-07-01,2022,7,CHI,Chicago Sky,Chicago IL,602,37
+2022-08-01,2022,8,CHI,Chicago Sky,Chicago IL,602,52
+2022-09-01,2022,9,CHI,Chicago Sky,Chicago IL,602,45
+2022-10-01,2022,10,CHI,Chicago Sky,Chicago IL,602,8
+2022-11-01,2022,11,CHI,Chicago Sky,Chicago IL,602,8
+2022-12-01,2022,12,CHI,Chicago Sky,Chicago IL,602,8
+2023-01-01,2023,1,CHI,Chicago Sky,Chicago IL,602,10
+2023-02-01,2023,2,CHI,Chicago Sky,Chicago IL,602,14
+2023-03-01,2023,3,CHI,Chicago Sky,Chicago IL,602,9
+2023-04-01,2023,4,CHI,Chicago Sky,Chicago IL,602,11
+2023-05-01,2023,5,CHI,Chicago Sky,Chicago IL,602,22
+2023-06-01,2023,6,CHI,Chicago Sky,Chicago IL,602,25
+2023-07-01,2023,7,CHI,Chicago Sky,Chicago IL,602,27
+2023-08-01,2023,8,CHI,Chicago Sky,Chicago IL,602,20
+2023-09-01,2023,9,CHI,Chicago Sky,Chicago IL,602,16
+2023-10-01,2023,10,CHI,Chicago Sky,Chicago IL,602,9
+2023-11-01,2023,11,CHI,Chicago Sky,Chicago IL,602,8
+2023-12-01,2023,12,CHI,Chicago Sky,Chicago IL,602,9
+2024-01-01,2024,1,CHI,Chicago Sky,Chicago IL,602,8
+2024-02-01,2024,2,CHI,Chicago Sky,Chicago IL,602,10
+2024-03-01,2024,3,CHI,Chicago Sky,Chicago IL,602,10
+2024-04-01,2024,4,CHI,Chicago Sky,Chicago IL,602,51
+2024-05-01,2024,5,CHI,Chicago Sky,Chicago IL,602,73
+2024-06-01,2024,6,CHI,Chicago Sky,Chicago IL,602,100
+2024-07-01,2024,7,CHI,Chicago Sky,Chicago IL,602,51
+2024-08-01,2024,8,CHI,Chicago Sky,Chicago IL,602,45
+2024-09-01,2024,9,CHI,Chicago Sky,Chicago IL,602,40
+2024-10-01,2024,10,CHI,Chicago Sky,Chicago IL,602,14
+2024-11-01,2024,11,CHI,Chicago Sky,Chicago IL,602,11
+2024-12-01,2024,12,CHI,Chicago Sky,Chicago IL,602,11
+2025-01-01,2025,1,CHI,Chicago Sky,Chicago IL,602,13
+2025-02-01,2025,2,CHI,Chicago Sky,Chicago IL,602,15
+2025-03-01,2025,3,CHI,Chicago Sky,Chicago IL,602,17
+2025-04-01,2025,4,CHI,Chicago Sky,Chicago IL,602,20
+2025-05-01,2025,5,CHI,Chicago Sky,Chicago IL,602,45
+2025-06-01,2025,6,CHI,Chicago Sky,Chicago IL,602,42
+2025-07-01,2025,7,CHI,Chicago Sky,Chicago IL,602,45
+2025-08-01,2025,8,CHI,Chicago Sky,Chicago IL,602,39
+2025-09-01,2025,9,CHI,Chicago Sky,Chicago IL,602,19
+2025-10-01,2025,10,CHI,Chicago Sky,Chicago IL,602,11
+2025-11-01,2025,11,CHI,Chicago Sky,Chicago IL,602,12
+2025-12-01,2025,12,CHI,Chicago Sky,Chicago IL,602,10
+2026-01-01,2026,1,CHI,Chicago Sky,Chicago IL,602,10
+2026-02-01,2026,2,CHI,Chicago Sky,Chicago IL,602,11
+2026-03-01,2026,3,CHI,Chicago Sky,Chicago IL,602,13
+2026-04-01,2026,4,CHI,Chicago Sky,Chicago IL,602,30
+2026-05-01,2026,5,CHI,Chicago Sky,Chicago IL,602,37
+2026-06-01,2026,6,CHI,Chicago Sky,Chicago IL,602,34
+2026-07-01,2026,7,CHI,Chicago Sky,Chicago IL,602,31
+2026-08-01,2026,8,CHI,Chicago Sky,Chicago IL,602,42
+2026-09-01,2026,9,CHI,Chicago Sky,Chicago IL,602,16
+2026-10-01,2026,10,CHI,Chicago Sky,Chicago IL,602,10
+2021-01-01,2021,1,CON,Connecticut Sun,Hartford & New Haven CT,533,12
+2021-02-01,2021,2,CON,Connecticut Sun,Hartford & New Haven CT,533,13
+2021-03-01,2021,3,CON,Connecticut Sun,Hartford & New Haven CT,533,17
+2021-04-01,2021,4,CON,Connecticut Sun,Hartford & New Haven CT,533,20
+2021-05-01,2021,5,CON,Connecticut Sun,Hartford & New Haven CT,533,38
+2021-06-01,2021,6,CON,Connecticut Sun,Hartford & New Haven CT,533,32
+2021-07-01,2021,7,CON,Connecticut Sun,Hartford & New Haven CT,533,29
+2021-08-01,2021,8,CON,Connecticut Sun,Hartford & New Haven CT,533,26
+2021-09-01,2021,9,CON,Connecticut Sun,Hartford & New Haven CT,533,34
+2021-10-01,2021,10,CON,Connecticut Sun,Hartford & New Haven CT,533,30
+2021-11-01,2021,11,CON,Connecticut Sun,Hartford & New Haven CT,533,20
+2021-12-01,2021,12,CON,Connecticut Sun,Hartford & New Haven CT,533,19
+2022-01-01,2022,1,CON,Connecticut Sun,Hartford & New Haven CT,533,21
+2022-02-01,2022,2,CON,Connecticut Sun,Hartford & New Haven CT,533,26
+2022-03-01,2022,3,CON,Connecticut Sun,Hartford & New Haven CT,533,31
+2022-04-01,2022,4,CON,Connecticut Sun,Hartford & New Haven CT,533,32
+2022-05-01,2022,5,CON,Connecticut Sun,Hartford & New Haven CT,533,51
+2022-06-01,2022,6,CON,Connecticut Sun,Hartford & New Haven CT,533,54
+2022-07-01,2022,7,CON,Connecticut Sun,Hartford & New Haven CT,533,58
+2022-08-01,2022,8,CON,Connecticut Sun,Hartford & New Haven CT,533,66
+2022-09-01,2022,9,CON,Connecticut Sun,Hartford & New Haven CT,533,82
+2022-10-01,2022,10,CON,Connecticut Sun,Hartford & New Haven CT,533,27
+2022-11-01,2022,11,CON,Connecticut Sun,Hartford & New Haven CT,533,20
+2022-12-01,2022,12,CON,Connecticut Sun,Hartford & New Haven CT,533,23
+2023-01-01,2023,1,CON,Connecticut Sun,Hartford & New Haven CT,533,25
+2023-02-01,2023,2,CON,Connecticut Sun,Hartford & New Haven CT,533,24
+2023-03-01,2023,3,CON,Connecticut Sun,Hartford & New Haven CT,533,26
+2023-04-01,2023,4,CON,Connecticut Sun,Hartford & New Haven CT,533,29
+2023-05-01,2023,5,CON,Connecticut Sun,Hartford & New Haven CT,533,48
+2023-06-01,2023,6,CON,Connecticut Sun,Hartford & New Haven CT,533,59
+2023-07-01,2023,7,CON,Connecticut Sun,Hartford & New Haven CT,533,52
+2023-08-01,2023,8,CON,Connecticut Sun,Hartford & New Haven CT,533,51
+2023-09-01,2023,9,CON,Connecticut Sun,Hartford & New Haven CT,533,56
+2023-10-01,2023,10,CON,Connecticut Sun,Hartford & New Haven CT,533,23
+2023-11-01,2023,11,CON,Connecticut Sun,Hartford & New Haven CT,533,16
+2023-12-01,2023,12,CON,Connecticut Sun,Hartford & New Haven CT,533,21
+2024-01-01,2024,1,CON,Connecticut Sun,Hartford & New Haven CT,533,19
+2024-02-01,2024,2,CON,Connecticut Sun,Hartford & New Haven CT,533,24
+2024-03-01,2024,3,CON,Connecticut Sun,Hartford & New Haven CT,533,24
+2024-04-01,2024,4,CON,Connecticut Sun,Hartford & New Haven CT,533,42
+2024-05-01,2024,5,CON,Connecticut Sun,Hartford & New Haven CT,533,83
+2024-06-01,2024,6,CON,Connecticut Sun,Hartford & New Haven CT,533,82
+2024-07-01,2024,7,CON,Connecticut Sun,Hartford & New Haven CT,533,50
+2024-08-01,2024,8,CON,Connecticut Sun,Hartford & New Haven CT,533,57
+2024-09-01,2024,9,CON,Connecticut Sun,Hartford & New Haven CT,533,100
+2024-10-01,2024,10,CON,Connecticut Sun,Hartford & New Haven CT,533,59
+2024-11-01,2024,11,CON,Connecticut Sun,Hartford & New Haven CT,533,17
+2024-12-01,2024,12,CON,Connecticut Sun,Hartford & New Haven CT,533,22
+2025-01-01,2025,1,CON,Connecticut Sun,Hartford & New Haven CT,533,24
+2025-02-01,2025,2,CON,Connecticut Sun,Hartford & New Haven CT,533,29
+2025-03-01,2025,3,CON,Connecticut Sun,Hartford & New Haven CT,533,27
+2025-04-01,2025,4,CON,Connecticut Sun,Hartford & New Haven CT,533,32
+2025-05-01,2025,5,CON,Connecticut Sun,Hartford & New Haven CT,533,64
+2025-06-01,2025,6,CON,Connecticut Sun,Hartford & New Haven CT,533,60
+2025-07-01,2025,7,CON,Connecticut Sun,Hartford & New Haven CT,533,56
+2025-08-01,2025,8,CON,Connecticut Sun,Hartford & New Haven CT,533,80
+2025-09-01,2025,9,CON,Connecticut Sun,Hartford & New Haven CT,533,39
+2025-10-01,2025,10,CON,Connecticut Sun,Hartford & New Haven CT,533,18
+2025-11-01,2025,11,CON,Connecticut Sun,Hartford & New Haven CT,533,23
+2025-12-01,2025,12,CON,Connecticut Sun,Hartford & New Haven CT,533,22
+2026-01-01,2026,1,CON,Connecticut Sun,Hartford & New Haven CT,533,24
+2026-02-01,2026,2,CON,Connecticut Sun,Hartford & New Haven CT,533,21
+2026-03-01,2026,3,CON,Connecticut Sun,Hartford & New Haven CT,533,37
+2026-04-01,2026,4,CON,Connecticut Sun,Hartford & New Haven CT,533,41
+2026-05-01,2026,5,CON,Connecticut Sun,Hartford & New Haven CT,533,62
+2026-06-01,2026,6,CON,Connecticut Sun,Hartford & New Haven CT,533,59
+2026-07-01,2026,7,CON,Connecticut Sun,Hartford & New Haven CT,533,57
+2026-08-01,2026,8,CON,Connecticut Sun,Hartford & New Haven CT,533,54
+2026-09-01,2026,9,CON,Connecticut Sun,Hartford & New Haven CT,533,41
+2026-10-01,2026,10,CON,Connecticut Sun,Hartford & New Haven CT,533,21
+2021-01-01,2021,1,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,9
+2021-02-01,2021,2,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,11
+2021-03-01,2021,3,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,10
+2021-04-01,2021,4,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,17
+2021-05-01,2021,5,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,20
+2021-06-01,2021,6,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,21
+2021-07-01,2021,7,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,16
+2021-08-01,2021,8,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2021-09-01,2021,9,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,18
+2021-10-01,2021,10,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,16
+2021-11-01,2021,11,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,10
+2021-12-01,2021,12,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,9
+2022-01-01,2022,1,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,14
+2022-02-01,2022,2,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2022-03-01,2022,3,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2022-04-01,2022,4,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,14
+2022-05-01,2022,5,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,26
+2022-06-01,2022,6,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,34
+2022-07-01,2022,7,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,25
+2022-08-01,2022,8,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,35
+2022-09-01,2022,9,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,11
+2022-10-01,2022,10,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,11
+2022-11-01,2022,11,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,29
+2022-12-01,2022,12,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,12
+2023-01-01,2023,1,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,12
+2023-02-01,2023,2,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2023-03-01,2023,3,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,11
+2023-04-01,2023,4,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,16
+2023-05-01,2023,5,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,28
+2023-06-01,2023,6,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,35
+2023-07-01,2023,7,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,37
+2023-08-01,2023,8,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,32
+2023-09-01,2023,9,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,49
+2023-10-01,2023,10,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,11
+2023-11-01,2023,11,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,10
+2023-12-01,2023,12,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,11
+2024-01-01,2024,1,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,10
+2024-02-01,2024,2,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2024-03-01,2024,3,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,12
+2024-04-01,2024,4,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,39
+2024-05-01,2024,5,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,72
+2024-06-01,2024,6,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,49
+2024-07-01,2024,7,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,40
+2024-08-01,2024,8,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,33
+2024-09-01,2024,9,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,32
+2024-10-01,2024,10,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,12
+2024-11-01,2024,11,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,14
+2024-12-01,2024,12,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2025-01-01,2025,1,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2025-02-01,2025,2,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,17
+2025-03-01,2025,3,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,16
+2025-04-01,2025,4,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,52
+2025-05-01,2025,5,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,93
+2025-06-01,2025,6,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,100
+2025-07-01,2025,7,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,73
+2025-08-01,2025,8,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,59
+2025-09-01,2025,9,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,24
+2025-10-01,2025,10,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,14
+2025-11-01,2025,11,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,14
+2025-12-01,2025,12,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,12
+2026-01-01,2026,1,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,12
+2026-02-01,2026,2,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,13
+2026-03-01,2026,3,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,16
+2026-04-01,2026,4,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,41
+2026-05-01,2026,5,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,99
+2026-06-01,2026,6,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,93
+2026-07-01,2026,7,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,87
+2026-08-01,2026,8,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,95
+2026-09-01,2026,9,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,43
+2026-10-01,2026,10,DAL,Dallas Wings,Dallas-Ft. Worth TX,623,41
+2021-01-01,2021,1,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-02-01,2021,2,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-03-01,2021,3,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-04-01,2021,4,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-05-01,2021,5,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-06-01,2021,6,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-07-01,2021,7,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-08-01,2021,8,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-09-01,2021,9,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-10-01,2021,10,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-11-01,2021,11,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2021-12-01,2021,12,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-01-01,2022,1,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-02-01,2022,2,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-03-01,2022,3,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-04-01,2022,4,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-05-01,2022,5,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-06-01,2022,6,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-07-01,2022,7,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-08-01,2022,8,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-09-01,2022,9,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-10-01,2022,10,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-11-01,2022,11,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2022-12-01,2022,12,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-01-01,2023,1,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-02-01,2023,2,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-03-01,2023,3,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-04-01,2023,4,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-05-01,2023,5,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-06-01,2023,6,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-07-01,2023,7,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-08-01,2023,8,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-09-01,2023,9,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-10-01,2023,10,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-11-01,2023,11,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2023-12-01,2023,12,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2024-01-01,2024,1,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2024-02-01,2024,2,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2024-03-01,2024,3,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2024-04-01,2024,4,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,0
+2024-05-01,2024,5,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,14
+2024-06-01,2024,6,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,4
+2024-07-01,2024,7,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,3
+2024-08-01,2024,8,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,3
+2024-09-01,2024,9,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,3
+2024-10-01,2024,10,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,5
+2024-11-01,2024,11,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,2
+2024-12-01,2024,12,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,9
+2025-01-01,2025,1,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,4
+2025-02-01,2025,2,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,5
+2025-03-01,2025,3,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,5
+2025-04-01,2025,4,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,11
+2025-05-01,2025,5,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,32
+2025-06-01,2025,6,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,36
+2025-07-01,2025,7,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,22
+2025-08-01,2025,8,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,26
+2025-09-01,2025,9,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,26
+2025-10-01,2025,10,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,3
+2025-11-01,2025,11,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,3
+2025-12-01,2025,12,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,2
+2026-01-01,2026,1,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,3
+2026-02-01,2026,2,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,2
+2026-03-01,2026,3,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,4
+2026-04-01,2026,4,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,12
+2026-05-01,2026,5,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,22
+2026-06-01,2026,6,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,23
+2026-07-01,2026,7,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,20
+2026-08-01,2026,8,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,29
+2026-09-01,2026,9,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,17
+2026-10-01,2026,10,GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,807,100
+2021-01-01,2021,1,IND,Indiana Fever,Indianapolis IN,527,1
+2021-02-01,2021,2,IND,Indiana Fever,Indianapolis IN,527,1
+2021-03-01,2021,3,IND,Indiana Fever,Indianapolis IN,527,1
+2021-04-01,2021,4,IND,Indiana Fever,Indianapolis IN,527,2
+2021-05-01,2021,5,IND,Indiana Fever,Indianapolis IN,527,4
+2021-06-01,2021,6,IND,Indiana Fever,Indianapolis IN,527,3
+2021-07-01,2021,7,IND,Indiana Fever,Indianapolis IN,527,2
+2021-08-01,2021,8,IND,Indiana Fever,Indianapolis IN,527,2
+2021-09-01,2021,9,IND,Indiana Fever,Indianapolis IN,527,2
+2021-10-01,2021,10,IND,Indiana Fever,Indianapolis IN,527,1
+2021-11-01,2021,11,IND,Indiana Fever,Indianapolis IN,527,1
+2021-12-01,2021,12,IND,Indiana Fever,Indianapolis IN,527,1
+2022-01-01,2022,1,IND,Indiana Fever,Indianapolis IN,527,2
+2022-02-01,2022,2,IND,Indiana Fever,Indianapolis IN,527,1
+2022-03-01,2022,3,IND,Indiana Fever,Indianapolis IN,527,1
+2022-04-01,2022,4,IND,Indiana Fever,Indianapolis IN,527,4
+2022-05-01,2022,5,IND,Indiana Fever,Indianapolis IN,527,6
+2022-06-01,2022,6,IND,Indiana Fever,Indianapolis IN,527,5
+2022-07-01,2022,7,IND,Indiana Fever,Indianapolis IN,527,5
+2022-08-01,2022,8,IND,Indiana Fever,Indianapolis IN,527,2
+2022-09-01,2022,9,IND,Indiana Fever,Indianapolis IN,527,1
+2022-10-01,2022,10,IND,Indiana Fever,Indianapolis IN,527,1
+2022-11-01,2022,11,IND,Indiana Fever,Indianapolis IN,527,2
+2022-12-01,2022,12,IND,Indiana Fever,Indianapolis IN,527,1
+2023-01-01,2023,1,IND,Indiana Fever,Indianapolis IN,527,1
+2023-02-01,2023,2,IND,Indiana Fever,Indianapolis IN,527,2
+2023-03-01,2023,3,IND,Indiana Fever,Indianapolis IN,527,1
+2023-04-01,2023,4,IND,Indiana Fever,Indianapolis IN,527,5
+2023-05-01,2023,5,IND,Indiana Fever,Indianapolis IN,527,9
+2023-06-01,2023,6,IND,Indiana Fever,Indianapolis IN,527,9
+2023-07-01,2023,7,IND,Indiana Fever,Indianapolis IN,527,8
+2023-08-01,2023,8,IND,Indiana Fever,Indianapolis IN,527,6
+2023-09-01,2023,9,IND,Indiana Fever,Indianapolis IN,527,3
+2023-10-01,2023,10,IND,Indiana Fever,Indianapolis IN,527,1
+2023-11-01,2023,11,IND,Indiana Fever,Indianapolis IN,527,1
+2023-12-01,2023,12,IND,Indiana Fever,Indianapolis IN,527,2
+2024-01-01,2024,1,IND,Indiana Fever,Indianapolis IN,527,2
+2024-02-01,2024,2,IND,Indiana Fever,Indianapolis IN,527,3
+2024-03-01,2024,3,IND,Indiana Fever,Indianapolis IN,527,8
+2024-04-01,2024,4,IND,Indiana Fever,Indianapolis IN,527,27
+2024-05-01,2024,5,IND,Indiana Fever,Indianapolis IN,527,90
+2024-06-01,2024,6,IND,Indiana Fever,Indianapolis IN,527,88
+2024-07-01,2024,7,IND,Indiana Fever,Indianapolis IN,527,53
+2024-08-01,2024,8,IND,Indiana Fever,Indianapolis IN,527,53
+2024-09-01,2024,9,IND,Indiana Fever,Indianapolis IN,527,100
+2024-10-01,2024,10,IND,Indiana Fever,Indianapolis IN,527,9
+2024-11-01,2024,11,IND,Indiana Fever,Indianapolis IN,527,6
+2024-12-01,2024,12,IND,Indiana Fever,Indianapolis IN,527,6
+2025-01-01,2025,1,IND,Indiana Fever,Indianapolis IN,527,7
+2025-02-01,2025,2,IND,Indiana Fever,Indianapolis IN,527,11
+2025-03-01,2025,3,IND,Indiana Fever,Indianapolis IN,527,6
+2025-04-01,2025,4,IND,Indiana Fever,Indianapolis IN,527,10
+2025-05-01,2025,5,IND,Indiana Fever,Indianapolis IN,527,62
+2025-06-01,2025,6,IND,Indiana Fever,Indianapolis IN,527,64
+2025-07-01,2025,7,IND,Indiana Fever,Indianapolis IN,527,62
+2025-08-01,2025,8,IND,Indiana Fever,Indianapolis IN,527,50
+2025-09-01,2025,9,IND,Indiana Fever,Indianapolis IN,527,60
+2025-10-01,2025,10,IND,Indiana Fever,Indianapolis IN,527,14
+2025-11-01,2025,11,IND,Indiana Fever,Indianapolis IN,527,4
+2025-12-01,2025,12,IND,Indiana Fever,Indianapolis IN,527,4
+2026-01-01,2026,1,IND,Indiana Fever,Indianapolis IN,527,5
+2026-02-01,2026,2,IND,Indiana Fever,Indianapolis IN,527,4
+2026-03-01,2026,3,IND,Indiana Fever,Indianapolis IN,527,5
+2026-04-01,2026,4,IND,Indiana Fever,Indianapolis IN,527,21
+2026-05-01,2026,5,IND,Indiana Fever,Indianapolis IN,527,52
+2026-06-01,2026,6,IND,Indiana Fever,Indianapolis IN,527,61
+2026-07-01,2026,7,IND,Indiana Fever,Indianapolis IN,527,62
+2026-08-01,2026,8,IND,Indiana Fever,Indianapolis IN,527,75
+2026-09-01,2026,9,IND,Indiana Fever,Indianapolis IN,527,46
+2026-10-01,2026,10,IND,Indiana Fever,Indianapolis IN,527,28
+2021-01-01,2021,1,LAS,Los Angeles Sparks,Los Angeles CA,803,6
+2021-02-01,2021,2,LAS,Los Angeles Sparks,Los Angeles CA,803,12
+2021-03-01,2021,3,LAS,Los Angeles Sparks,Los Angeles CA,803,7
+2021-04-01,2021,4,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2021-05-01,2021,5,LAS,Los Angeles Sparks,Los Angeles CA,803,21
+2021-06-01,2021,6,LAS,Los Angeles Sparks,Los Angeles CA,803,32
+2021-07-01,2021,7,LAS,Los Angeles Sparks,Los Angeles CA,803,19
+2021-08-01,2021,8,LAS,Los Angeles Sparks,Los Angeles CA,803,19
+2021-09-01,2021,9,LAS,Los Angeles Sparks,Los Angeles CA,803,15
+2021-10-01,2021,10,LAS,Los Angeles Sparks,Los Angeles CA,803,5
+2021-11-01,2021,11,LAS,Los Angeles Sparks,Los Angeles CA,803,8
+2021-12-01,2021,12,LAS,Los Angeles Sparks,Los Angeles CA,803,0
+2022-01-01,2022,1,LAS,Los Angeles Sparks,Los Angeles CA,803,8
+2022-02-01,2022,2,LAS,Los Angeles Sparks,Los Angeles CA,803,17
+2022-03-01,2022,3,LAS,Los Angeles Sparks,Los Angeles CA,803,11
+2022-04-01,2022,4,LAS,Los Angeles Sparks,Los Angeles CA,803,18
+2022-05-01,2022,5,LAS,Los Angeles Sparks,Los Angeles CA,803,51
+2022-06-01,2022,6,LAS,Los Angeles Sparks,Los Angeles CA,803,50
+2022-07-01,2022,7,LAS,Los Angeles Sparks,Los Angeles CA,803,53
+2022-08-01,2022,8,LAS,Los Angeles Sparks,Los Angeles CA,803,25
+2022-09-01,2022,9,LAS,Los Angeles Sparks,Los Angeles CA,803,12
+2022-10-01,2022,10,LAS,Los Angeles Sparks,Los Angeles CA,803,9
+2022-11-01,2022,11,LAS,Los Angeles Sparks,Los Angeles CA,803,0
+2022-12-01,2022,12,LAS,Los Angeles Sparks,Los Angeles CA,803,6
+2023-01-01,2023,1,LAS,Los Angeles Sparks,Los Angeles CA,803,11
+2023-02-01,2023,2,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2023-03-01,2023,3,LAS,Los Angeles Sparks,Los Angeles CA,803,13
+2023-04-01,2023,4,LAS,Los Angeles Sparks,Los Angeles CA,803,13
+2023-05-01,2023,5,LAS,Los Angeles Sparks,Los Angeles CA,803,41
+2023-06-01,2023,6,LAS,Los Angeles Sparks,Los Angeles CA,803,48
+2023-07-01,2023,7,LAS,Los Angeles Sparks,Los Angeles CA,803,43
+2023-08-01,2023,8,LAS,Los Angeles Sparks,Los Angeles CA,803,32
+2023-09-01,2023,9,LAS,Los Angeles Sparks,Los Angeles CA,803,19
+2023-10-01,2023,10,LAS,Los Angeles Sparks,Los Angeles CA,803,8
+2023-11-01,2023,11,LAS,Los Angeles Sparks,Los Angeles CA,803,5
+2023-12-01,2023,12,LAS,Los Angeles Sparks,Los Angeles CA,803,6
+2024-01-01,2024,1,LAS,Los Angeles Sparks,Los Angeles CA,803,12
+2024-02-01,2024,2,LAS,Los Angeles Sparks,Los Angeles CA,803,12
+2024-03-01,2024,3,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2024-04-01,2024,4,LAS,Los Angeles Sparks,Los Angeles CA,803,40
+2024-05-01,2024,5,LAS,Los Angeles Sparks,Los Angeles CA,803,100
+2024-06-01,2024,6,LAS,Los Angeles Sparks,Los Angeles CA,803,79
+2024-07-01,2024,7,LAS,Los Angeles Sparks,Los Angeles CA,803,59
+2024-08-01,2024,8,LAS,Los Angeles Sparks,Los Angeles CA,803,58
+2024-09-01,2024,9,LAS,Los Angeles Sparks,Los Angeles CA,803,70
+2024-10-01,2024,10,LAS,Los Angeles Sparks,Los Angeles CA,803,13
+2024-11-01,2024,11,LAS,Los Angeles Sparks,Los Angeles CA,803,11
+2024-12-01,2024,12,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2025-01-01,2025,1,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2025-02-01,2025,2,LAS,Los Angeles Sparks,Los Angeles CA,803,20
+2025-03-01,2025,3,LAS,Los Angeles Sparks,Los Angeles CA,803,18
+2025-04-01,2025,4,LAS,Los Angeles Sparks,Los Angeles CA,803,22
+2025-05-01,2025,5,LAS,Los Angeles Sparks,Los Angeles CA,803,69
+2025-06-01,2025,6,LAS,Los Angeles Sparks,Los Angeles CA,803,66
+2025-07-01,2025,7,LAS,Los Angeles Sparks,Los Angeles CA,803,67
+2025-08-01,2025,8,LAS,Los Angeles Sparks,Los Angeles CA,803,89
+2025-09-01,2025,9,LAS,Los Angeles Sparks,Los Angeles CA,803,45
+2025-10-01,2025,10,LAS,Los Angeles Sparks,Los Angeles CA,803,17
+2025-11-01,2025,11,LAS,Los Angeles Sparks,Los Angeles CA,803,15
+2025-12-01,2025,12,LAS,Los Angeles Sparks,Los Angeles CA,803,11
+2026-01-01,2026,1,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2026-02-01,2026,2,LAS,Los Angeles Sparks,Los Angeles CA,803,12
+2026-03-01,2026,3,LAS,Los Angeles Sparks,Los Angeles CA,803,13
+2026-04-01,2026,4,LAS,Los Angeles Sparks,Los Angeles CA,803,38
+2026-05-01,2026,5,LAS,Los Angeles Sparks,Los Angeles CA,803,74
+2026-06-01,2026,6,LAS,Los Angeles Sparks,Los Angeles CA,803,81
+2026-07-01,2026,7,LAS,Los Angeles Sparks,Los Angeles CA,803,99
+2026-08-01,2026,8,LAS,Los Angeles Sparks,Los Angeles CA,803,75
+2026-09-01,2026,9,LAS,Los Angeles Sparks,Los Angeles CA,803,24
+2026-10-01,2026,10,LAS,Los Angeles Sparks,Los Angeles CA,803,14
+2021-01-01,2021,1,LVA,Las Vegas Aces,Las Vegas NV,839,3
+2021-02-01,2021,2,LVA,Las Vegas Aces,Las Vegas NV,839,3
+2021-03-01,2021,3,LVA,Las Vegas Aces,Las Vegas NV,839,2
+2021-04-01,2021,4,LVA,Las Vegas Aces,Las Vegas NV,839,4
+2021-05-01,2021,5,LVA,Las Vegas Aces,Las Vegas NV,839,13
+2021-06-01,2021,6,LVA,Las Vegas Aces,Las Vegas NV,839,15
+2021-07-01,2021,7,LVA,Las Vegas Aces,Las Vegas NV,839,11
+2021-08-01,2021,8,LVA,Las Vegas Aces,Las Vegas NV,839,7
+2021-09-01,2021,9,LVA,Las Vegas Aces,Las Vegas NV,839,16
+2021-10-01,2021,10,LVA,Las Vegas Aces,Las Vegas NV,839,14
+2021-11-01,2021,11,LVA,Las Vegas Aces,Las Vegas NV,839,2
+2021-12-01,2021,12,LVA,Las Vegas Aces,Las Vegas NV,839,3
+2022-01-01,2022,1,LVA,Las Vegas Aces,Las Vegas NV,839,4
+2022-02-01,2022,2,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2022-03-01,2022,3,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2022-04-01,2022,4,LVA,Las Vegas Aces,Las Vegas NV,839,8
+2022-05-01,2022,5,LVA,Las Vegas Aces,Las Vegas NV,839,22
+2022-06-01,2022,6,LVA,Las Vegas Aces,Las Vegas NV,839,28
+2022-07-01,2022,7,LVA,Las Vegas Aces,Las Vegas NV,839,25
+2022-08-01,2022,8,LVA,Las Vegas Aces,Las Vegas NV,839,43
+2022-09-01,2022,9,LVA,Las Vegas Aces,Las Vegas NV,839,100
+2022-10-01,2022,10,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2022-11-01,2022,11,LVA,Las Vegas Aces,Las Vegas NV,839,4
+2022-12-01,2022,12,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2023-01-01,2023,1,LVA,Las Vegas Aces,Las Vegas NV,839,7
+2023-02-01,2023,2,LVA,Las Vegas Aces,Las Vegas NV,839,8
+2023-03-01,2023,3,LVA,Las Vegas Aces,Las Vegas NV,839,8
+2023-04-01,2023,4,LVA,Las Vegas Aces,Las Vegas NV,839,8
+2023-05-01,2023,5,LVA,Las Vegas Aces,Las Vegas NV,839,30
+2023-06-01,2023,6,LVA,Las Vegas Aces,Las Vegas NV,839,49
+2023-07-01,2023,7,LVA,Las Vegas Aces,Las Vegas NV,839,42
+2023-08-01,2023,8,LVA,Las Vegas Aces,Las Vegas NV,839,38
+2023-09-01,2023,9,LVA,Las Vegas Aces,Las Vegas NV,839,42
+2023-10-01,2023,10,LVA,Las Vegas Aces,Las Vegas NV,839,65
+2023-11-01,2023,11,LVA,Las Vegas Aces,Las Vegas NV,839,6
+2023-12-01,2023,12,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2024-01-01,2024,1,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2024-02-01,2024,2,LVA,Las Vegas Aces,Las Vegas NV,839,6
+2024-03-01,2024,3,LVA,Las Vegas Aces,Las Vegas NV,839,9
+2024-04-01,2024,4,LVA,Las Vegas Aces,Las Vegas NV,839,13
+2024-05-01,2024,5,LVA,Las Vegas Aces,Las Vegas NV,839,51
+2024-06-01,2024,6,LVA,Las Vegas Aces,Las Vegas NV,839,52
+2024-07-01,2024,7,LVA,Las Vegas Aces,Las Vegas NV,839,38
+2024-08-01,2024,8,LVA,Las Vegas Aces,Las Vegas NV,839,29
+2024-09-01,2024,9,LVA,Las Vegas Aces,Las Vegas NV,839,52
+2024-10-01,2024,10,LVA,Las Vegas Aces,Las Vegas NV,839,31
+2024-11-01,2024,11,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2024-12-01,2024,12,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2025-01-01,2025,1,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2025-02-01,2025,2,LVA,Las Vegas Aces,Las Vegas NV,839,7
+2025-03-01,2025,3,LVA,Las Vegas Aces,Las Vegas NV,839,6
+2025-04-01,2025,4,LVA,Las Vegas Aces,Las Vegas NV,839,7
+2025-05-01,2025,5,LVA,Las Vegas Aces,Las Vegas NV,839,27
+2025-06-01,2025,6,LVA,Las Vegas Aces,Las Vegas NV,839,37
+2025-07-01,2025,7,LVA,Las Vegas Aces,Las Vegas NV,839,26
+2025-08-01,2025,8,LVA,Las Vegas Aces,Las Vegas NV,839,34
+2025-09-01,2025,9,LVA,Las Vegas Aces,Las Vegas NV,839,59
+2025-10-01,2025,10,LVA,Las Vegas Aces,Las Vegas NV,839,54
+2025-11-01,2025,11,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2025-12-01,2025,12,LVA,Las Vegas Aces,Las Vegas NV,839,5
+2026-01-01,2026,1,LVA,Las Vegas Aces,Las Vegas NV,839,4
+2026-02-01,2026,2,LVA,Las Vegas Aces,Las Vegas NV,839,4
+2026-03-01,2026,3,LVA,Las Vegas Aces,Las Vegas NV,839,6
+2026-04-01,2026,4,LVA,Las Vegas Aces,Las Vegas NV,839,12
+2026-05-01,2026,5,LVA,Las Vegas Aces,Las Vegas NV,839,27
+2026-06-01,2026,6,LVA,Las Vegas Aces,Las Vegas NV,839,33
+2026-07-01,2026,7,LVA,Las Vegas Aces,Las Vegas NV,839,36
+2026-08-01,2026,8,LVA,Las Vegas Aces,Las Vegas NV,839,36
+2026-09-01,2026,9,LVA,Las Vegas Aces,Las Vegas NV,839,24
+2026-10-01,2026,10,LVA,Las Vegas Aces,Las Vegas NV,839,32
+2021-01-01,2021,1,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2021-02-01,2021,2,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2021-03-01,2021,3,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,1
+2021-04-01,2021,4,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,4
+2021-05-01,2021,5,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,8
+2021-06-01,2021,6,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,10
+2021-07-01,2021,7,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,6
+2021-08-01,2021,8,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,6
+2021-09-01,2021,9,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,13
+2021-10-01,2021,10,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2021-11-01,2021,11,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2021-12-01,2021,12,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,1
+2022-01-01,2022,1,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2022-02-01,2022,2,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2022-03-01,2022,3,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2022-04-01,2022,4,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,5
+2022-05-01,2022,5,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,13
+2022-06-01,2022,6,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,10
+2022-07-01,2022,7,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,12
+2022-08-01,2022,8,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,8
+2022-09-01,2022,9,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2022-10-01,2022,10,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2022-11-01,2022,11,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2022-12-01,2022,12,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2023-01-01,2023,1,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2023-02-01,2023,2,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2023-03-01,2023,3,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2023-04-01,2023,4,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,5
+2023-05-01,2023,5,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,10
+2023-06-01,2023,6,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,11
+2023-07-01,2023,7,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,14
+2023-08-01,2023,8,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,10
+2023-09-01,2023,9,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,13
+2023-10-01,2023,10,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,1
+2023-11-01,2023,11,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2023-12-01,2023,12,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,1
+2024-01-01,2024,1,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2024-02-01,2024,2,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2024-03-01,2024,3,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,4
+2024-04-01,2024,4,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,13
+2024-05-01,2024,5,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,20
+2024-06-01,2024,6,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,32
+2024-07-01,2024,7,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,19
+2024-08-01,2024,8,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,21
+2024-09-01,2024,9,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,44
+2024-10-01,2024,10,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,100
+2024-11-01,2024,11,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2024-12-01,2024,12,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2025-01-01,2025,1,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,4
+2025-02-01,2025,2,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,5
+2025-03-01,2025,3,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,4
+2025-04-01,2025,4,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,9
+2025-05-01,2025,5,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,30
+2025-06-01,2025,6,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,37
+2025-07-01,2025,7,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,41
+2025-08-01,2025,8,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,46
+2025-09-01,2025,9,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,63
+2025-10-01,2025,10,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,6
+2025-11-01,2025,11,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,4
+2025-12-01,2025,12,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2026-01-01,2026,1,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,2
+2026-02-01,2026,2,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2026-03-01,2026,3,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,3
+2026-04-01,2026,4,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,18
+2026-05-01,2026,5,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,31
+2026-06-01,2026,6,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,45
+2026-07-01,2026,7,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,48
+2026-08-01,2026,8,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,66
+2026-09-01,2026,9,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,45
+2026-10-01,2026,10,MIN,Minnesota Lynx,Minneapolis-St. Paul MN,613,8
+2021-01-01,2021,1,NYL,New York Liberty,New York NY,501,12
+2021-02-01,2021,2,NYL,New York Liberty,New York NY,501,12
+2021-03-01,2021,3,NYL,New York Liberty,New York NY,501,13
+2021-04-01,2021,4,NYL,New York Liberty,New York NY,501,15
+2021-05-01,2021,5,NYL,New York Liberty,New York NY,501,22
+2021-06-01,2021,6,NYL,New York Liberty,New York NY,501,23
+2021-07-01,2021,7,NYL,New York Liberty,New York NY,501,21
+2021-08-01,2021,8,NYL,New York Liberty,New York NY,501,18
+2021-09-01,2021,9,NYL,New York Liberty,New York NY,501,19
+2021-10-01,2021,10,NYL,New York Liberty,New York NY,501,15
+2021-11-01,2021,11,NYL,New York Liberty,New York NY,501,16
+2021-12-01,2021,12,NYL,New York Liberty,New York NY,501,18
+2022-01-01,2022,1,NYL,New York Liberty,New York NY,501,17
+2022-02-01,2022,2,NYL,New York Liberty,New York NY,501,19
+2022-03-01,2022,3,NYL,New York Liberty,New York NY,501,24
+2022-04-01,2022,4,NYL,New York Liberty,New York NY,501,24
+2022-05-01,2022,5,NYL,New York Liberty,New York NY,501,33
+2022-06-01,2022,6,NYL,New York Liberty,New York NY,501,34
+2022-07-01,2022,7,NYL,New York Liberty,New York NY,501,39
+2022-08-01,2022,8,NYL,New York Liberty,New York NY,501,40
+2022-09-01,2022,9,NYL,New York Liberty,New York NY,501,25
+2022-10-01,2022,10,NYL,New York Liberty,New York NY,501,23
+2022-11-01,2022,11,NYL,New York Liberty,New York NY,501,20
+2022-12-01,2022,12,NYL,New York Liberty,New York NY,501,22
+2023-01-01,2023,1,NYL,New York Liberty,New York NY,501,20
+2023-02-01,2023,2,NYL,New York Liberty,New York NY,501,23
+2023-03-01,2023,3,NYL,New York Liberty,New York NY,501,22
+2023-04-01,2023,4,NYL,New York Liberty,New York NY,501,27
+2023-05-01,2023,5,NYL,New York Liberty,New York NY,501,34
+2023-06-01,2023,6,NYL,New York Liberty,New York NY,501,39
+2023-07-01,2023,7,NYL,New York Liberty,New York NY,501,42
+2023-08-01,2023,8,NYL,New York Liberty,New York NY,501,38
+2023-09-01,2023,9,NYL,New York Liberty,New York NY,501,43
+2023-10-01,2023,10,NYL,New York Liberty,New York NY,501,41
+2023-11-01,2023,11,NYL,New York Liberty,New York NY,501,17
+2023-12-01,2023,12,NYL,New York Liberty,New York NY,501,21
+2024-01-01,2024,1,NYL,New York Liberty,New York NY,501,17
+2024-02-01,2024,2,NYL,New York Liberty,New York NY,501,18
+2024-03-01,2024,3,NYL,New York Liberty,New York NY,501,21
+2024-04-01,2024,4,NYL,New York Liberty,New York NY,501,31
+2024-05-01,2024,5,NYL,New York Liberty,New York NY,501,47
+2024-06-01,2024,6,NYL,New York Liberty,New York NY,501,50
+2024-07-01,2024,7,NYL,New York Liberty,New York NY,501,41
+2024-08-01,2024,8,NYL,New York Liberty,New York NY,501,41
+2024-09-01,2024,9,NYL,New York Liberty,New York NY,501,49
+2024-10-01,2024,10,NYL,New York Liberty,New York NY,501,100
+2024-11-01,2024,11,NYL,New York Liberty,New York NY,501,19
+2024-12-01,2024,12,NYL,New York Liberty,New York NY,501,26
+2025-01-01,2025,1,NYL,New York Liberty,New York NY,501,19
+2025-02-01,2025,2,NYL,New York Liberty,New York NY,501,18
+2025-03-01,2025,3,NYL,New York Liberty,New York NY,501,23
+2025-04-01,2025,4,NYL,New York Liberty,New York NY,501,24
+2025-05-01,2025,5,NYL,New York Liberty,New York NY,501,45
+2025-06-01,2025,6,NYL,New York Liberty,New York NY,501,49
+2025-07-01,2025,7,NYL,New York Liberty,New York NY,501,53
+2025-08-01,2025,8,NYL,New York Liberty,New York NY,501,48
+2025-09-01,2025,9,NYL,New York Liberty,New York NY,501,39
+2025-10-01,2025,10,NYL,New York Liberty,New York NY,501,24
+2025-11-01,2025,11,NYL,New York Liberty,New York NY,501,24
+2025-12-01,2025,12,NYL,New York Liberty,New York NY,501,28
+2026-01-01,2026,1,NYL,New York Liberty,New York NY,501,22
+2026-02-01,2026,2,NYL,New York Liberty,New York NY,501,24
+2026-03-01,2026,3,NYL,New York Liberty,New York NY,501,28
+2026-04-01,2026,4,NYL,New York Liberty,New York NY,501,34
+2026-05-01,2026,5,NYL,New York Liberty,New York NY,501,48
+2026-06-01,2026,6,NYL,New York Liberty,New York NY,501,51
+2026-07-01,2026,7,NYL,New York Liberty,New York NY,501,48
+2026-08-01,2026,8,NYL,New York Liberty,New York NY,501,48
+2026-09-01,2026,9,NYL,New York Liberty,New York NY,501,34
+2026-10-01,2026,10,NYL,New York Liberty,New York NY,501,34
+2021-01-01,2021,1,PHX,Phoenix Mercury,Phoenix AZ,753,2
+2021-02-01,2021,2,PHX,Phoenix Mercury,Phoenix AZ,753,4
+2021-03-01,2021,3,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2021-04-01,2021,4,PHX,Phoenix Mercury,Phoenix AZ,753,6
+2021-05-01,2021,5,PHX,Phoenix Mercury,Phoenix AZ,753,18
+2021-06-01,2021,6,PHX,Phoenix Mercury,Phoenix AZ,753,25
+2021-07-01,2021,7,PHX,Phoenix Mercury,Phoenix AZ,753,16
+2021-08-01,2021,8,PHX,Phoenix Mercury,Phoenix AZ,753,14
+2021-09-01,2021,9,PHX,Phoenix Mercury,Phoenix AZ,753,32
+2021-10-01,2021,10,PHX,Phoenix Mercury,Phoenix AZ,753,100
+2021-11-01,2021,11,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2021-12-01,2021,12,PHX,Phoenix Mercury,Phoenix AZ,753,4
+2022-01-01,2022,1,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2022-02-01,2022,2,PHX,Phoenix Mercury,Phoenix AZ,753,6
+2022-03-01,2022,3,PHX,Phoenix Mercury,Phoenix AZ,753,7
+2022-04-01,2022,4,PHX,Phoenix Mercury,Phoenix AZ,753,8
+2022-05-01,2022,5,PHX,Phoenix Mercury,Phoenix AZ,753,24
+2022-06-01,2022,6,PHX,Phoenix Mercury,Phoenix AZ,753,30
+2022-07-01,2022,7,PHX,Phoenix Mercury,Phoenix AZ,753,26
+2022-08-01,2022,8,PHX,Phoenix Mercury,Phoenix AZ,753,29
+2022-09-01,2022,9,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2022-10-01,2022,10,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2022-11-01,2022,11,PHX,Phoenix Mercury,Phoenix AZ,753,2
+2022-12-01,2022,12,PHX,Phoenix Mercury,Phoenix AZ,753,6
+2023-01-01,2023,1,PHX,Phoenix Mercury,Phoenix AZ,753,4
+2023-02-01,2023,2,PHX,Phoenix Mercury,Phoenix AZ,753,8
+2023-03-01,2023,3,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2023-04-01,2023,4,PHX,Phoenix Mercury,Phoenix AZ,753,9
+2023-05-01,2023,5,PHX,Phoenix Mercury,Phoenix AZ,753,34
+2023-06-01,2023,6,PHX,Phoenix Mercury,Phoenix AZ,753,42
+2023-07-01,2023,7,PHX,Phoenix Mercury,Phoenix AZ,753,28
+2023-08-01,2023,8,PHX,Phoenix Mercury,Phoenix AZ,753,33
+2023-09-01,2023,9,PHX,Phoenix Mercury,Phoenix AZ,753,12
+2023-10-01,2023,10,PHX,Phoenix Mercury,Phoenix AZ,753,4
+2023-11-01,2023,11,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2023-12-01,2023,12,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2024-01-01,2024,1,PHX,Phoenix Mercury,Phoenix AZ,753,4
+2024-02-01,2024,2,PHX,Phoenix Mercury,Phoenix AZ,753,7
+2024-03-01,2024,3,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2024-04-01,2024,4,PHX,Phoenix Mercury,Phoenix AZ,753,16
+2024-05-01,2024,5,PHX,Phoenix Mercury,Phoenix AZ,753,43
+2024-06-01,2024,6,PHX,Phoenix Mercury,Phoenix AZ,753,69
+2024-07-01,2024,7,PHX,Phoenix Mercury,Phoenix AZ,753,35
+2024-08-01,2024,8,PHX,Phoenix Mercury,Phoenix AZ,753,32
+2024-09-01,2024,9,PHX,Phoenix Mercury,Phoenix AZ,753,42
+2024-10-01,2024,10,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2024-11-01,2024,11,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2024-12-01,2024,12,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2025-01-01,2025,1,PHX,Phoenix Mercury,Phoenix AZ,753,6
+2025-02-01,2025,2,PHX,Phoenix Mercury,Phoenix AZ,753,11
+2025-03-01,2025,3,PHX,Phoenix Mercury,Phoenix AZ,753,9
+2025-04-01,2025,4,PHX,Phoenix Mercury,Phoenix AZ,753,9
+2025-05-01,2025,5,PHX,Phoenix Mercury,Phoenix AZ,753,40
+2025-06-01,2025,6,PHX,Phoenix Mercury,Phoenix AZ,753,46
+2025-07-01,2025,7,PHX,Phoenix Mercury,Phoenix AZ,753,41
+2025-08-01,2025,8,PHX,Phoenix Mercury,Phoenix AZ,753,44
+2025-09-01,2025,9,PHX,Phoenix Mercury,Phoenix AZ,753,83
+2025-10-01,2025,10,PHX,Phoenix Mercury,Phoenix AZ,753,56
+2025-11-01,2025,11,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2025-12-01,2025,12,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2026-01-01,2026,1,PHX,Phoenix Mercury,Phoenix AZ,753,5
+2026-02-01,2026,2,PHX,Phoenix Mercury,Phoenix AZ,753,4
+2026-03-01,2026,3,PHX,Phoenix Mercury,Phoenix AZ,753,6
+2026-04-01,2026,4,PHX,Phoenix Mercury,Phoenix AZ,753,17
+2026-05-01,2026,5,PHX,Phoenix Mercury,Phoenix AZ,753,33
+2026-06-01,2026,6,PHX,Phoenix Mercury,Phoenix AZ,753,41
+2026-07-01,2026,7,PHX,Phoenix Mercury,Phoenix AZ,753,41
+2026-08-01,2026,8,PHX,Phoenix Mercury,Phoenix AZ,753,45
+2026-09-01,2026,9,PHX,Phoenix Mercury,Phoenix AZ,753,12
+2026-10-01,2026,10,PHX,Phoenix Mercury,Phoenix AZ,753,3
+2021-01-01,2021,1,POR,Portland Fire,Portland OR,820,8
+2021-02-01,2021,2,POR,Portland Fire,Portland OR,820,8
+2021-03-01,2021,3,POR,Portland Fire,Portland OR,820,9
+2021-04-01,2021,4,POR,Portland Fire,Portland OR,820,10
+2021-05-01,2021,5,POR,Portland Fire,Portland OR,820,9
+2021-06-01,2021,6,POR,Portland Fire,Portland OR,820,13
+2021-07-01,2021,7,POR,Portland Fire,Portland OR,820,23
+2021-08-01,2021,8,POR,Portland Fire,Portland OR,820,16
+2021-09-01,2021,9,POR,Portland Fire,Portland OR,820,18
+2021-10-01,2021,10,POR,Portland Fire,Portland OR,820,13
+2021-11-01,2021,11,POR,Portland Fire,Portland OR,820,7
+2021-12-01,2021,12,POR,Portland Fire,Portland OR,820,7
+2022-01-01,2022,1,POR,Portland Fire,Portland OR,820,10
+2022-02-01,2022,2,POR,Portland Fire,Portland OR,820,9
+2022-03-01,2022,3,POR,Portland Fire,Portland OR,820,9
+2022-04-01,2022,4,POR,Portland Fire,Portland OR,820,10
+2022-05-01,2022,5,POR,Portland Fire,Portland OR,820,9
+2022-06-01,2022,6,POR,Portland Fire,Portland OR,820,9
+2022-07-01,2022,7,POR,Portland Fire,Portland OR,820,11
+2022-08-01,2022,8,POR,Portland Fire,Portland OR,820,13
+2022-09-01,2022,9,POR,Portland Fire,Portland OR,820,26
+2022-10-01,2022,10,POR,Portland Fire,Portland OR,820,19
+2022-11-01,2022,11,POR,Portland Fire,Portland OR,820,9
+2022-12-01,2022,12,POR,Portland Fire,Portland OR,820,7
+2023-01-01,2023,1,POR,Portland Fire,Portland OR,820,11
+2023-02-01,2023,2,POR,Portland Fire,Portland OR,820,10
+2023-03-01,2023,3,POR,Portland Fire,Portland OR,820,9
+2023-04-01,2023,4,POR,Portland Fire,Portland OR,820,8
+2023-05-01,2023,5,POR,Portland Fire,Portland OR,820,34
+2023-06-01,2023,6,POR,Portland Fire,Portland OR,820,13
+2023-07-01,2023,7,POR,Portland Fire,Portland OR,820,32
+2023-08-01,2023,8,POR,Portland Fire,Portland OR,820,24
+2023-09-01,2023,9,POR,Portland Fire,Portland OR,820,13
+2023-10-01,2023,10,POR,Portland Fire,Portland OR,820,9
+2023-11-01,2023,11,POR,Portland Fire,Portland OR,820,9
+2023-12-01,2023,12,POR,Portland Fire,Portland OR,820,8
+2024-01-01,2024,1,POR,Portland Fire,Portland OR,820,11
+2024-02-01,2024,2,POR,Portland Fire,Portland OR,820,12
+2024-03-01,2024,3,POR,Portland Fire,Portland OR,820,9
+2024-04-01,2024,4,POR,Portland Fire,Portland OR,820,10
+2024-05-01,2024,5,POR,Portland Fire,Portland OR,820,9
+2024-06-01,2024,6,POR,Portland Fire,Portland OR,820,21
+2024-07-01,2024,7,POR,Portland Fire,Portland OR,820,31
+2024-08-01,2024,8,POR,Portland Fire,Portland OR,820,13
+2024-09-01,2024,9,POR,Portland Fire,Portland OR,820,13
+2024-10-01,2024,10,POR,Portland Fire,Portland OR,820,9
+2024-11-01,2024,11,POR,Portland Fire,Portland OR,820,7
+2024-12-01,2024,12,POR,Portland Fire,Portland OR,820,8
+2025-01-01,2025,1,POR,Portland Fire,Portland OR,820,13
+2025-02-01,2025,2,POR,Portland Fire,Portland OR,820,8
+2025-03-01,2025,3,POR,Portland Fire,Portland OR,820,7
+2025-04-01,2025,4,POR,Portland Fire,Portland OR,820,6
+2025-05-01,2025,5,POR,Portland Fire,Portland OR,820,7
+2025-06-01,2025,6,POR,Portland Fire,Portland OR,820,12
+2025-07-01,2025,7,POR,Portland Fire,Portland OR,820,24
+2025-08-01,2025,8,POR,Portland Fire,Portland OR,820,20
+2025-09-01,2025,9,POR,Portland Fire,Portland OR,820,14
+2025-10-01,2025,10,POR,Portland Fire,Portland OR,820,15
+2025-11-01,2025,11,POR,Portland Fire,Portland OR,820,14
+2025-12-01,2025,12,POR,Portland Fire,Portland OR,820,13
+2026-01-01,2026,1,POR,Portland Fire,Portland OR,820,17
+2026-02-01,2026,2,POR,Portland Fire,Portland OR,820,15
+2026-03-01,2026,3,POR,Portland Fire,Portland OR,820,18
+2026-04-01,2026,4,POR,Portland Fire,Portland OR,820,33
+2026-05-01,2026,5,POR,Portland Fire,Portland OR,820,100
+2026-06-01,2026,6,POR,Portland Fire,Portland OR,820,56
+2026-07-01,2026,7,POR,Portland Fire,Portland OR,820,48
+2026-08-01,2026,8,POR,Portland Fire,Portland OR,820,82
+2026-09-01,2026,9,POR,Portland Fire,Portland OR,820,34
+2026-10-01,2026,10,POR,Portland Fire,Portland OR,820,15
+2021-01-01,2021,1,SEA,Seattle Storm,Seattle-Tacoma WA,819,11
+2021-02-01,2021,2,SEA,Seattle Storm,Seattle-Tacoma WA,819,21
+2021-03-01,2021,3,SEA,Seattle Storm,Seattle-Tacoma WA,819,9
+2021-04-01,2021,4,SEA,Seattle Storm,Seattle-Tacoma WA,819,11
+2021-05-01,2021,5,SEA,Seattle Storm,Seattle-Tacoma WA,819,38
+2021-06-01,2021,6,SEA,Seattle Storm,Seattle-Tacoma WA,819,49
+2021-07-01,2021,7,SEA,Seattle Storm,Seattle-Tacoma WA,819,30
+2021-08-01,2021,8,SEA,Seattle Storm,Seattle-Tacoma WA,819,33
+2021-09-01,2021,9,SEA,Seattle Storm,Seattle-Tacoma WA,819,38
+2021-10-01,2021,10,SEA,Seattle Storm,Seattle-Tacoma WA,819,26
+2021-11-01,2021,11,SEA,Seattle Storm,Seattle-Tacoma WA,819,9
+2021-12-01,2021,12,SEA,Seattle Storm,Seattle-Tacoma WA,819,23
+2022-01-01,2022,1,SEA,Seattle Storm,Seattle-Tacoma WA,819,15
+2022-02-01,2022,2,SEA,Seattle Storm,Seattle-Tacoma WA,819,12
+2022-03-01,2022,3,SEA,Seattle Storm,Seattle-Tacoma WA,819,12
+2022-04-01,2022,4,SEA,Seattle Storm,Seattle-Tacoma WA,819,23
+2022-05-01,2022,5,SEA,Seattle Storm,Seattle-Tacoma WA,819,65
+2022-06-01,2022,6,SEA,Seattle Storm,Seattle-Tacoma WA,819,67
+2022-07-01,2022,7,SEA,Seattle Storm,Seattle-Tacoma WA,819,65
+2022-08-01,2022,8,SEA,Seattle Storm,Seattle-Tacoma WA,819,100
+2022-09-01,2022,9,SEA,Seattle Storm,Seattle-Tacoma WA,819,71
+2022-10-01,2022,10,SEA,Seattle Storm,Seattle-Tacoma WA,819,8
+2022-11-01,2022,11,SEA,Seattle Storm,Seattle-Tacoma WA,819,19
+2022-12-01,2022,12,SEA,Seattle Storm,Seattle-Tacoma WA,819,75
+2023-01-01,2023,1,SEA,Seattle Storm,Seattle-Tacoma WA,819,14
+2023-02-01,2023,2,SEA,Seattle Storm,Seattle-Tacoma WA,819,20
+2023-03-01,2023,3,SEA,Seattle Storm,Seattle-Tacoma WA,819,12
+2023-04-01,2023,4,SEA,Seattle Storm,Seattle-Tacoma WA,819,14
+2023-05-01,2023,5,SEA,Seattle Storm,Seattle-Tacoma WA,819,35
+2023-06-01,2023,6,SEA,Seattle Storm,Seattle-Tacoma WA,819,55
+2023-07-01,2023,7,SEA,Seattle Storm,Seattle-Tacoma WA,819,38
+2023-08-01,2023,8,SEA,Seattle Storm,Seattle-Tacoma WA,819,42
+2023-09-01,2023,9,SEA,Seattle Storm,Seattle-Tacoma WA,819,20
+2023-10-01,2023,10,SEA,Seattle Storm,Seattle-Tacoma WA,819,7
+2023-11-01,2023,11,SEA,Seattle Storm,Seattle-Tacoma WA,819,8
+2023-12-01,2023,12,SEA,Seattle Storm,Seattle-Tacoma WA,819,9
+2024-01-01,2024,1,SEA,Seattle Storm,Seattle-Tacoma WA,819,17
+2024-02-01,2024,2,SEA,Seattle Storm,Seattle-Tacoma WA,819,15
+2024-03-01,2024,3,SEA,Seattle Storm,Seattle-Tacoma WA,819,12
+2024-04-01,2024,4,SEA,Seattle Storm,Seattle-Tacoma WA,819,40
+2024-05-01,2024,5,SEA,Seattle Storm,Seattle-Tacoma WA,819,100
+2024-06-01,2024,6,SEA,Seattle Storm,Seattle-Tacoma WA,819,82
+2024-07-01,2024,7,SEA,Seattle Storm,Seattle-Tacoma WA,819,58
+2024-08-01,2024,8,SEA,Seattle Storm,Seattle-Tacoma WA,819,47
+2024-09-01,2024,9,SEA,Seattle Storm,Seattle-Tacoma WA,819,66
+2024-10-01,2024,10,SEA,Seattle Storm,Seattle-Tacoma WA,819,14
+2024-11-01,2024,11,SEA,Seattle Storm,Seattle-Tacoma WA,819,90
+2024-12-01,2024,12,SEA,Seattle Storm,Seattle-Tacoma WA,819,18
+2025-01-01,2025,1,SEA,Seattle Storm,Seattle-Tacoma WA,819,17
+2025-02-01,2025,2,SEA,Seattle Storm,Seattle-Tacoma WA,819,22
+2025-03-01,2025,3,SEA,Seattle Storm,Seattle-Tacoma WA,819,58
+2025-04-01,2025,4,SEA,Seattle Storm,Seattle-Tacoma WA,819,24
+2025-05-01,2025,5,SEA,Seattle Storm,Seattle-Tacoma WA,819,64
+2025-06-01,2025,6,SEA,Seattle Storm,Seattle-Tacoma WA,819,77
+2025-07-01,2025,7,SEA,Seattle Storm,Seattle-Tacoma WA,819,61
+2025-08-01,2025,8,SEA,Seattle Storm,Seattle-Tacoma WA,819,75
+2025-09-01,2025,9,SEA,Seattle Storm,Seattle-Tacoma WA,819,73
+2025-10-01,2025,10,SEA,Seattle Storm,Seattle-Tacoma WA,819,18
+2025-11-01,2025,11,SEA,Seattle Storm,Seattle-Tacoma WA,819,13
+2025-12-01,2025,12,SEA,Seattle Storm,Seattle-Tacoma WA,819,18
+2026-01-01,2026,1,SEA,Seattle Storm,Seattle-Tacoma WA,819,19
+2026-02-01,2026,2,SEA,Seattle Storm,Seattle-Tacoma WA,819,14
+2026-03-01,2026,3,SEA,Seattle Storm,Seattle-Tacoma WA,819,17
+2026-04-01,2026,4,SEA,Seattle Storm,Seattle-Tacoma WA,819,48
+2026-05-01,2026,5,SEA,Seattle Storm,Seattle-Tacoma WA,819,66
+2026-06-01,2026,6,SEA,Seattle Storm,Seattle-Tacoma WA,819,62
+2026-07-01,2026,7,SEA,Seattle Storm,Seattle-Tacoma WA,819,66
+2026-08-01,2026,8,SEA,Seattle Storm,Seattle-Tacoma WA,819,58
+2026-09-01,2026,9,SEA,Seattle Storm,Seattle-Tacoma WA,819,30
+2026-10-01,2026,10,SEA,Seattle Storm,Seattle-Tacoma WA,819,11
+2021-01-01,2021,1,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,4
+2021-02-01,2021,2,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,8
+2021-03-01,2021,3,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2021-04-01,2021,4,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,12
+2021-05-01,2021,5,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,29
+2021-06-01,2021,6,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,31
+2021-07-01,2021,7,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,13
+2021-08-01,2021,8,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,23
+2021-09-01,2021,9,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,19
+2021-10-01,2021,10,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,5
+2021-11-01,2021,11,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,3
+2021-12-01,2021,12,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,8
+2022-01-01,2022,1,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,7
+2022-02-01,2022,2,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,13
+2022-03-01,2022,3,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,13
+2022-04-01,2022,4,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,25
+2022-05-01,2022,5,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,56
+2022-06-01,2022,6,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,61
+2022-07-01,2022,7,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,49
+2022-08-01,2022,8,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,47
+2022-09-01,2022,9,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,5
+2022-10-01,2022,10,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,5
+2022-11-01,2022,11,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2022-12-01,2022,12,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2023-01-01,2023,1,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,8
+2023-02-01,2023,2,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,12
+2023-03-01,2023,3,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,12
+2023-04-01,2023,4,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,18
+2023-05-01,2023,5,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,38
+2023-06-01,2023,6,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,52
+2023-07-01,2023,7,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,51
+2023-08-01,2023,8,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,38
+2023-09-01,2023,9,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,29
+2023-10-01,2023,10,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2023-11-01,2023,11,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2023-12-01,2023,12,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,11
+2024-01-01,2024,1,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,7
+2024-02-01,2024,2,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,13
+2024-03-01,2024,3,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,12
+2024-04-01,2024,4,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,74
+2024-05-01,2024,5,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,74
+2024-06-01,2024,6,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,100
+2024-07-01,2024,7,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,42
+2024-08-01,2024,8,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,41
+2024-09-01,2024,9,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,53
+2024-10-01,2024,10,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,8
+2024-11-01,2024,11,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2024-12-01,2024,12,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,13
+2025-01-01,2025,1,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,11
+2025-02-01,2025,2,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,16
+2025-03-01,2025,3,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,18
+2025-04-01,2025,4,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,29
+2025-05-01,2025,5,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,65
+2025-06-01,2025,6,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,55
+2025-07-01,2025,7,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,62
+2025-08-01,2025,8,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,57
+2025-09-01,2025,9,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,20
+2025-10-01,2025,10,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,7
+2025-11-01,2025,11,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,7
+2025-12-01,2025,12,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2026-01-01,2026,1,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,8
+2026-02-01,2026,2,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,6
+2026-03-01,2026,3,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,9
+2026-04-01,2026,4,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,46
+2026-05-01,2026,5,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,66
+2026-06-01,2026,6,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,64
+2026-07-01,2026,7,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,64
+2026-08-01,2026,8,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,88
+2026-09-01,2026,9,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,51
+2026-10-01,2026,10,WAS,Washington Mystics,Washington DC (Hagerstown MD),511,17

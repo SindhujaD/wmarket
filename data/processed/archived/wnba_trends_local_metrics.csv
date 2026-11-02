@@ -1,0 +1,12 @@
+team_id,team_name,dma_name,months_observed,mean_interest,median_interest,peak_interest,minimum_interest,baseline_mean_interest,recent_mean_interest,local_growth,p75_interest_threshold,high_interest_months,persistence_rate,interest_std_dev,coefficient_variation,peak_to_median,preceding_mean_interest,recent_momentum,zero_interest_months,zero_rate,growth_percentile,persistence_percentile,momentum_percentile
+ATL,Atlanta Dream,Atlanta GA,70,6.24,3.0,100,1,2.58,12.23,3.7331,7.0,20,0.2857,12.22,1.9576,33.33,4.42,1.7684,0,0.0,90.0,95.4545,90.9091
+CHI,Chicago Sky,Chicago IL,70,22.84,14.0,100,5,19.62,23.59,0.2021,31.0,19,0.2714,19.76,0.865,7.14,25.38,-0.0703,0,0.0,10.0,81.8182,18.1818
+CON,Connecticut Sun,Hartford & New Haven CT,70,38.64,30.5,100,12,32.75,40.64,0.2408,55.0,20,0.2857,20.49,0.5302,3.28,42.71,-0.0485,0,0.0,20.0,95.4545,27.2727
+DAL,Dallas Wings,Dallas-Ft. Worth TX,70,28.53,16.0,100,9,16.71,45.18,1.7041,36.5,18,0.2571,24.0,0.8411,6.25,25.08,0.8013,0,0.0,80.0,40.9091,72.7273
+GSV,Golden State Valkyries,San Francisco-Oakland-San Jose CA,70,6.6,0.0,100,0,0.0,18.95,,4.75,18,0.2571,14.72,2.2303,,1.88,9.1091,40,0.5714,,40.9091,100.0
+IND,Indiana Fever,Indianapolis IN,70,17.81,4.5,100,1,2.17,32.59,14.042,19.25,18,0.2571,25.99,1.4592,22.22,19.92,0.6364,0,0.0,100.0,40.9091,63.6364
+LVA,Las Vegas Aces,Las Vegas NV,70,20.44,12.0,100,2,14.38,22.0,0.5304,32.75,18,0.2571,19.56,0.9569,8.33,25.08,-0.1229,0,0.0,30.0,40.9091,9.0909
+NYL,New York Liberty,New York NY,70,30.89,25.0,100,12,22.33,35.59,0.5936,40.75,18,0.2571,14.58,0.4719,4.0,35.12,0.0133,0,0.0,40.0,40.9091,36.3636
+PHX,Phoenix Mercury,Phoenix AZ,70,19.9,9.0,100,2,15.88,25.68,0.6178,32.75,18,0.2571,20.47,1.0285,11.11,18.62,0.3789,0,0.0,50.0,40.9091,54.5455
+POR,Portland Fire,Portland OR,70,18.07,12.5,100,7,12.75,27.23,1.1355,18.75,18,0.2571,16.35,0.9048,8.0,15.0,0.8152,0,0.0,70.0,40.9091,81.8182
+WAS,Washington Mystics,Washington DC (Hagerstown MD),70,27.99,17.0,100,3,19.38,35.14,0.8135,48.5,18,0.2571,24.44,0.8733,5.88,30.04,0.1696,0,0.0,60.0,40.9091,45.4545

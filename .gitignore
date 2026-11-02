@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 google_ads_credentials.json
 credentials.json
+google-ads.yaml
