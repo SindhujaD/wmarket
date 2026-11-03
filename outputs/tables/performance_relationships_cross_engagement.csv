@@ -1,0 +1,3 @@
+analysis_level,category,engagement_measure,performance_measure,n,pearson_r,pearson_p,pearson_interpretation,spearman_r,spearman_p,spearman_interpretation
+team,Physical vs Digital,Physical Engagement Score,LDES,12,0.4793823786145333,0.11480301196400662,Moderate positive,0.39579745461116567,0.2028076432500998,Weak positive
+team,Physical vs Digital,Attendance Growth,Digital Growth,12,0.676620939194687,0.01567594968648754,Strong positive,0.6643356643356644,0.018452718028445433,Strong positive

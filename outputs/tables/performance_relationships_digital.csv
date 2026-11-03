@@ -1,0 +1,9 @@
+analysis_level,category,engagement_measure,performance_measure,n,pearson_r,pearson_p,pearson_interpretation,spearman_r,spearman_p,spearman_interpretation
+team,Digital,LDES,Average Win Percentage,12,-0.33564392298414575,0.2861540454255145,Weak negative,-0.31523691075225585,0.3182449980182202,Weak negative
+team,Digital,LDES,Playoff Rate,12,-0.06095931521837007,0.8507237458822803,Very weak negative,0.021999285034854363,0.9458960546149466,Very weak positive
+team,Digital,Digital Growth,Average Win Percentage,12,-0.319254421715669,0.3117768227906768,Weak negative,-0.31468531468531474,0.3191387855033045,Weak negative
+team,Digital,Digital Growth,Playoff Rate,12,-0.16428360639894912,0.6099080681721205,Very weak negative,-0.10980395534147552,0.7340764951747649,Very weak negative
+team,Digital,Digital Persistence,Average Win Percentage,12,-0.23477296627792654,0.46264713609345454,Weak negative,-0.17739371879672478,0.5812510904310564,Very weak negative
+team,Digital,Digital Persistence,Playoff Rate,12,0.13443321448446596,0.6770115596863606,Very weak positive,0.24759378423606915,0.4378220042418859,Weak positive
+team,Digital,Digital Momentum,Average Win Percentage,12,-0.28722401248641793,0.3653602204987525,Weak negative,-0.34965034965034975,0.26523878689278996,Weak negative
+team,Digital,Digital Momentum,Playoff Rate,12,-0.0835381204561883,0.7963188371497099,Very weak negative,-0.10614382349675966,0.7426710594039719,Very weak negative

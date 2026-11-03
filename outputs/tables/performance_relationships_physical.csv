@@ -1,0 +1,15 @@
+analysis_level,category,engagement_measure,performance_measure,n,pearson_r,pearson_p,pearson_interpretation,spearman_r,spearman_p,spearman_interpretation
+team-season,Physical,Average Attendance,win_pct,76,0.18318126164995918,,Very weak positive,0.16867150117991403,,Very weak positive
+team-season,Physical,Capacity Utilization,win_pct,73,-0.0331640630144805,,Very weak negative,-0.012540129846247956,,Very weak negative
+team-season,Physical,Attendance YoY Growth,win_pct,61,,,Insufficient data,0.08801704897447545,,Very weak positive
+team-season,Physical,Capacity Utilization YoY Growth,win_pct,57,0.06334746295446476,,Very weak positive,0.12740776539678458,,Very weak positive
+team,Physical,Average Attendance,Average Win Percentage,15,0.08449112134055377,,Very weak positive,-0.06428571428571428,,Very weak negative
+team,Physical,Average Attendance,Playoff Rate,15,-0.018840536877002295,,Very weak negative,0.04045867968563435,,Very weak positive
+team,Physical,Average Capacity Utilization,Average Win Percentage,15,-0.13161679264591408,,Very weak negative,-0.1607142857142857,,Very weak negative
+team,Physical,Average Capacity Utilization,Playoff Rate,15,-0.1956639294200146,,Very weak negative,-0.2427520781138061,,Weak negative
+team,Physical,Attendance Growth,Average Win Percentage,12,-0.1642786813780721,,Very weak negative,-0.1398601398601399,,Very weak negative
+team,Physical,Attendance Growth,Playoff Rate,12,0.004649090948143747,,Very weak positive,0.1244444827203389,,Very weak positive
+team,Physical,Capacity Utilization Growth,Average Win Percentage,12,0.21450048666907517,,Weak positive,-0.034965034965034975,,Very weak negative
+team,Physical,Capacity Utilization Growth,Playoff Rate,12,0.3337912401302813,,Weak positive,0.1281046145650548,,Very weak positive
+team,Physical,Physical Engagement Score,Average Win Percentage,15,-0.1875892633143319,,Very weak negative,-0.19999999999999998,,Very weak negative
+team,Physical,Physical Engagement Score,Playoff Rate,15,-0.22995429666621683,,Weak negative,-0.0809173593712687,,Very weak negative

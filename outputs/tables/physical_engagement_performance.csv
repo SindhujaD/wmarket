@@ -1,0 +1,15 @@
+analysis_level,engagement_metric,engagement_metric_label,performance_metric,n,pearson_correlation,spearman_correlation,performance_metric_label
+team-season,average_attendance,Average Attendance,win_pct,76,0.18318126164995918,0.16867150117991403,
+team-season,capacity_utilization,Capacity Utilization,win_pct,73,-0.0331640630144805,-0.012540129846247956,
+team-season,attendance_yoy_growth,Attendance YoY Growth,win_pct,61,,0.08801704897447545,
+team-season,utilization_yoy_growth,Capacity Utilization YoY Growth,win_pct,57,0.06334746295446476,0.12740776539678458,
+team,avg_attendance,Average Attendance,avg_win_pct,15,0.08449112134055377,-0.06428571428571428,Average Win Percentage
+team,avg_attendance,Average Attendance,playoff_rate,15,-0.018840536877002295,0.04045867968563435,Playoff Rate
+team,avg_capacity_utilization,Average Capacity Utilization,avg_win_pct,15,-0.13161679264591408,-0.1607142857142857,Average Win Percentage
+team,avg_capacity_utilization,Average Capacity Utilization,playoff_rate,15,-0.1956639294200146,-0.2427520781138061,Playoff Rate
+team,attendance_growth,Attendance Growth,avg_win_pct,12,-0.1642786813780721,-0.1398601398601399,Average Win Percentage
+team,attendance_growth,Attendance Growth,playoff_rate,12,0.004649090948143747,0.1244444827203389,Playoff Rate
+team,capacity_utilization_growth,Capacity Utilization Growth,avg_win_pct,12,0.21450048666907517,-0.034965034965034975,Average Win Percentage
+team,capacity_utilization_growth,Capacity Utilization Growth,playoff_rate,12,0.3337912401302813,0.1281046145650548,Playoff Rate
+team,physical_engagement_score,Physical Engagement Score,avg_win_pct,15,-0.1875892633143319,-0.19999999999999998,Average Win Percentage
+team,physical_engagement_score,Physical Engagement Score,playoff_rate,15,-0.22995429666621683,-0.0809173593712687,Playoff Rate

@@ -52,7 +52,7 @@ season,team_id,team_name,average_attendance,average_capacity,capacity_data_quali
 2025,CON,Connecticut Sun,8653,9323,normal
 2025,DAL,Dallas Wings,7273,8276,multiple_venues
 2025,GSV,Golden State Valkyries,18064,18064,normal
-2025,IND,Indiana Fever,16560.17923,normal
+2025,IND,Indiana Fever,16560,17923,normal
 2025,LVA,Las Vegas Aces,11553,12000,normal
 2025,LAS,Los Angeles Sparks,12441,13141,normal
 2025,MIN,Minnesota Lynx,9958,18798,normal
@@ -60,7 +60,7 @@ season,team_id,team_name,average_attendance,average_capacity,capacity_data_quali
 2025,PHX,Phoenix Mercury,11306,17071,normal
 2025,SEA,Seattle Storm,11835,18300,normal
 2025,WAS,Washington Mystics,5303,5618,multiple_venues
-2026,ATL,Atlanta Dream,6928,7193s,multiple_venues
+2026,ATL,Atlanta Dream,6928,7193,multiple_venues
 2026,CHI,Chicago Sky,8237,10387,normal
 2026,CON,Connecticut Sun,8822,9323,normal
 2026,DAL,Dallas Wings,7658,8914,multiple_venues
