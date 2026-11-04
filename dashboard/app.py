@@ -130,7 +130,7 @@ st.markdown(
 
     .dashboard-subtitle {
         font-size: 1.15rem;
-        color: #666;
+        color: #ffffff;
         margin-bottom: 2rem;
     }
 
@@ -142,14 +142,15 @@ st.markdown(
     }
 
     .section-description {
-        color: #666;
+        color: #ffffff;
         margin-bottom: 1rem;
     }
 
     .insight-box {
         padding: 1.2rem;
         border-radius: 10px;
-        background-color: #f5f5f5;
+        background-color: white;
+        color: black;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -284,8 +285,11 @@ st.markdown(
 
 st.markdown(
     '<div class="dashboard-subtitle">'
-    'How effectively are WNBA teams building and sustaining '
-    'fan engagement in their markets?'
+    'This project is an analysis of how effectively WNBA teams are building and sustaining '
+    'fan engagement in their markets. I wanted to see how the Dallas Wings compare with other established WNBA markets, '
+    'and what the data can tell us about the relationship between digital engagement, physical attendance, and on-court performance. ' \
+    'You can peruse through all sections of this analysis with in the sidebar. The data and code are publicly available on the GitHub repository, ' \
+    'which can be found by pressing the Github logo in the top right corner.'
     '</div>',
     unsafe_allow_html=True,
 )
@@ -301,7 +305,7 @@ page = st.sidebar.radio(
     "Dashboard section",
     [
         "Market Overview",
-        "Physical vs Digital",
+        "Physical Engagement",
         "Digital Engagement",
         "Engagement & Performance",
     ],
@@ -351,6 +355,10 @@ if not dallas_market_row.empty:
         "ldes",
         np.nan,
     )
+    gap = dallas_market_row.get(
+        "digital_minus_physical",
+        dallas_ldes - dallas_physical_score,
+    )
 
 else:
 
@@ -358,6 +366,8 @@ else:
     dallas_market_score = np.nan
     dallas_physical_score = np.nan
     dallas_ldes = np.nan
+    gap = np.nan
+
 
 
 # ============================================================
@@ -368,24 +378,45 @@ if page == "Market Overview":
 
     st.markdown(
         '<div class="section-title">'
-        'Dallas at a glance'
+        'The Dallas Wings at a Glance'
         '</div>',
         unsafe_allow_html=True,
     )
 
     st.markdown(
         '<div class="section-description">'
-        'Dallas compared with the 12 established WNBA markets '
-        'in the market engagement benchmark.'
+        'This page explores how the Dallas Wings compare against other WNBA teams in regards to their digital and physical engagement.'
         '</div>',
         unsafe_allow_html=True,
     )
 
-    col1, col2, col3, col4 = st.columns(4)
+    with st.expander(" **How to read this page and its numbers** "):
+        st.markdown(
+            '''
+            **Overall market rank** ranks each team's market performance as a rank between the 12 WNBA teams in the 12 established markets; 1 is the highest rank.
+
+            **Market Engagement Score** is a 0–100 composite score that gives
+            50% weight to the Physical Engagement Score and 50% to the Local Digital Engagement Score.
+
+            **Physical Engagement Score** combines four equally weighted
+            percentile components calculated upstream: average attendance,
+            average capacity utilization, attendance growth, and utilization
+            growth. These components are calculated for the 2021-2026 period.
+
+            **Local Digital Engagement Score (LDES)**  is a 0–100 relative index combining local digital
+            search-interest growth, persistence, and recent momentum, based on Google Trends data. It is calculated for the 2021-2026 period.
+
+            These are comparative index scores, not percentages of fans,
+            market share, or probabilities. A score of 80 does not mean
+            that 80% of residents are fans.
+            '''
+        )
+
+    col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
         st.metric(
-            "Overall market rank",
+            "Overall Market Rank",
             (
                 f"#{int(dallas_rank)} of 12"
                 if not pd.isna(dallas_rank)
@@ -395,20 +426,26 @@ if page == "Market Overview":
 
     with col2:
         st.metric(
-            "Market engagement",
+            "Overall Market Engagement Score",
             format_score(dallas_market_score),
         )
 
     with col3:
         st.metric(
-            "Physical engagement",
+            "Physical Engagement Percentile",
             format_score(dallas_physical_score),
         )
 
     with col4:
         st.metric(
-            "Digital engagement",
+            "Digital Engagement Percentiles",
             format_score(dallas_ldes),
+        )
+
+    with col5:
+        st.metric(
+            "Digital − physical gap",
+            format_score(gap),
         )
 
     st.markdown(
@@ -458,95 +495,45 @@ if page == "Market Overview":
         use_container_width=True,
     )
 
-    st.markdown(
-        '<div class="insight-box">'
-        '<div class="insight-title">'
-        'Dallas takeaway'
-        '</div>'
+    st.success(
+        ' **Dallas takeaway:** '
         'Dallas ranks 4th among the 12 established markets. '
         'Its overall position is driven by a particularly strong '
         'digital engagement profile, while physical engagement '
-        'remains comparatively lower.'
-        '</div>',
-        unsafe_allow_html=True,
+        'remains comparatively lower.',
     )
 
     st.markdown(
-        '<div class="section-title">'
-        'Dallas compared with the benchmark'
-        '</div>',
-        unsafe_allow_html=True,
-    )
-
-    display_cols = [
-        "team_id",
-        "market_engagement_rank",
-        "market_engagement_score",
-        "physical_engagement_score",
-        "ldes",
-        "market_quadrant",
-    ]
-
-    available_cols = [
-        c for c in display_cols
-        if c in market.columns
-    ]
-
-    table = market.sort_values(
-        "market_engagement_rank"
-    )[available_cols].copy()
-
-    table["team_id"] = table["team_id"].map(
-        TEAM_NAMES
-    )
-
-    table = table.rename(
-        columns={
-            "team_id": "Team",
-            "market_engagement_rank": "Rank",
-            "market_engagement_score":
-                "Market Score",
-            "physical_engagement_score":
-                "Physical Score",
-            "ldes": "LDES",
-            "market_quadrant": "Quadrant",
-        }
-    )
-
-    st.dataframe(
-        table,
-        use_container_width=True,
-        hide_index=True,
-    )
-
-
-# ============================================================
-# PAGE 2 — PHYSICAL VS DIGITAL
-# ============================================================
-
-elif page == "Physical vs Digital":
-
-    st.markdown(
-        '<div class="section-title">'
-        'Physical vs digital engagement'
-        '</div>',
-        unsafe_allow_html=True,
-    )
-
-    st.markdown(
-        '<div class="section-description">'
-        'The central market-penetration question: are markets '
-        'building engagement primarily through physical attendance, '
+        '<div class="section-description" style="font-weight: bold;">'
+        'Are teams building engagement primarily through physical attendance, '
         'digital interest, or both?'
         '</div>',
         unsafe_allow_html=True,
     )
 
+    with st.expander(" **How to interpret the four-quadrant chart** "):
+        st.markdown(
+            '''
+            Each dot is one established WNBA market. The x-axis is its
+            **Physical Engagement Score** and the y-axis is its **LDES**.
+            The two central reference lines are the medians of the 12
+            markets shown.
+
+            - **Upper right:** above-median physical and digital engagement.
+            - **Upper left:** below-median physical, above-median digital.
+            - **Lower right:** above-median physical, below-median digital.
+            - **Lower left:** below-median physical and digital engagement.
+
+            “High” and “lower” are relative to this comparison group, not
+            absolute industry standards. The median intersection is a
+            benchmark, not a zero point. The digital-minus-physical gap is
+            a difference between index scores, measured in score points.
+            '''
+        )
+
     plot_data = market.copy()
 
-    plot_data["Team"] = plot_data["team_id"].map(
-        TEAM_NAMES
-    )
+    plot_data["Team"] = plot_data["team_id"].map(TEAM_NAMES)
 
     fig = px.scatter(
         plot_data,
@@ -599,7 +586,7 @@ elif page == "Physical vs Digital":
         line_dash="solid",
     )
 
-        # --------------------------------------------------------
+    # --------------------------------------------------------
     # Quadrant labels
     # --------------------------------------------------------
 
@@ -678,87 +665,370 @@ elif page == "Physical vs Digital":
         use_container_width=True,
     )
 
-    st.markdown(
-        '<div class="section-title">'
-        'Dallas market profile'
-        '</div>',
-        unsafe_allow_html=True,
-    )
-
-    col1, col2, col3 = st.columns(3)
-
     dallas_row = market[
         market["team_id"] == "DAL"
     ]
 
     if not dallas_row.empty:
-
-        dallas_row = dallas_row.iloc[0]
-
-        physical = dallas_row[
-            "physical_engagement_score"
-        ]
-
-        digital_score = dallas_row["ldes"]
-
-        gap = dallas_row.get(
-            "digital_minus_physical",
-            digital_score - physical,
-        )
-
         quadrant = dallas_row.get(
             "market_quadrant",
             "—",
         )
 
     else:
-
-        physical = np.nan
-        digital_score = np.nan
-        gap = np.nan
         quadrant = "—"
 
-    with col1:
-        st.metric(
-            "Physical score",
-            format_score(physical),
-        )
-
-    with col2:
-        st.metric(
-            "Digital score",
-            format_score(digital_score),
-        )
-
-    with col3:
-        st.metric(
-            "Digital − physical gap",
-            format_score(gap),
-        )
-
-    st.info(
-        f"Dallas falls into the **{quadrant}** quadrant. "
+    st.success(
+        "Dallas falls into the **Lower Physical - Higher Digital** quadrant. "
         "This means its digital engagement is substantially "
         "stronger than its physical engagement relative to "
         "the established-market benchmark."
+        "This suggests that the market has an audience that "
+        "is engaging with the Wings digitally even though that " 
+        "engagement has not translated into equally strong physical attendance."
     )
 
     st.markdown(
         '<div class="section-title">'
-        'What does the gap mean?'
+        'Team-level market engagement metrics'
         '</div>',
         unsafe_allow_html=True,
     )
 
-    st.write(
-        "Dallas's engagement profile is unusual because its "
-        "digital footprint is considerably stronger than its "
-        "physical attendance profile. This suggests that the "
-        "market has an audience that is engaging with the Wings "
-        "digitally even though that engagement has not translated "
-        "into equally strong physical attendance."
+    display_cols = [
+        "team_id",
+        "market_engagement_rank",
+        "market_engagement_score",
+        "physical_engagement_score",
+        "ldes",
+        "market_quadrant",
+    ]
+
+    available_cols = [
+        c for c in display_cols
+        if c in market.columns
+    ]
+
+    table = market.sort_values(
+        "market_engagement_rank"
+    )[available_cols].copy()
+
+    table["team_id"] = table["team_id"].map(
+        TEAM_NAMES
     )
 
+    table = table.rename(
+        columns={
+            "team_id": "Team",
+            "market_engagement_rank": "Rank",
+            "market_engagement_score":
+                "Market Score",
+            "physical_engagement_score":
+                "Physical Score",
+            "ldes": "LDES",
+            "market_quadrant": "Quadrant",
+        }
+    )
+
+    st.dataframe(
+        table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+        
+    with st.expander("Assumptions & Limitations"):
+        st.markdown("""
+        - Market population is used as a proxy for the potential audience, not a measure of actual fan interest.
+        - Team markets are represented using the geographic definitions and population data selected for the project.
+        - Market size alone does not account for differences in income, competing sports, local interest, or fan demographics.
+        - Historical comparisons may be affected by franchise relocations, expansion, and changes in market boundaries.
+        """)
+
+# ============================================================
+# PAGE 2 — PHYSICAL ENGAGEMENT
+# ============================================================
+
+elif page == "Physical Engagement":
+
+    st.markdown(
+        '<div class="section-title">'
+        'Physical engagement'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        '<div class="section-description">'
+        'This page explores how effectively WNBA teams convert '
+        'their local fan interest into in-person attendance. '
+        'The Physical Engagement Score combines attendance, '
+        'arena capacity utilization, and growth in both measures.'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    with st.expander("**What the Physical Engagement Score measures and how to read its components**"):
+        st.markdown(
+            '''
+            The Physical Engagement Score is a **relative 0–100 index**
+            designed to compare how successfully WNBA teams attract
+            fans to their games.
+
+            It combines four equally weighted components:
+
+            - **Average attendance (25%):** Average number of attendees
+              per game across the available seasons.
+            - **Average capacity utilization (25%):** Average share of
+              available arena capacity filled during games.
+            - **Attendance growth (25%):** Change in average attendance
+              between the 2023–2024 baseline and the 2025–2026 recent period.
+            - **Capacity utilization growth (25%):** Change in average
+              capacity utilization between those same periods.
+
+            Each component is converted to a percentile rank among the
+            established markets before weighting. The final score is
+            the average of those four percentile rankings.
+
+            The growth measures compare the average of the recent period
+            with the average of the baseline period. Positive growth
+            indicates improvement; negative growth indicates a decline.
+
+            The component table shows both the underlying measurements
+            and their percentile rankings. Percentile rankings are
+            relative positions among the comparison markets, not
+            percentages of fans or percentage growth.
+            '''
+        )
+
+    # --------------------------------------------------------
+    # PREPARE PHYSICAL ENGAGEMENT DATA
+    # --------------------------------------------------------
+
+    physical_display = physical_established.copy()
+
+    physical_display["Team"] = (
+        physical_display["team_id"]
+        .map(TEAM_NAMES)
+        .fillna(physical_display["team_id"])
+    )
+
+    physical_display = physical_display.sort_values(
+        "physical_engagement_score",
+        ascending=False,
+    )
+
+    # --------------------------------------------------------
+    # OVERALL PHYSICAL ENGAGEMENT RANKING
+    # --------------------------------------------------------
+
+    fig = px.bar(
+        physical_display,
+        x="physical_engagement_score",
+        y="Team",
+        orientation="h",
+        text="physical_engagement_score",
+        labels={
+            "physical_engagement_score":
+                "Physical Engagement Score",
+            "Team": "",
+        },
+        title="Physical Engagement Score",
+    )
+
+    fig.update_traces(
+        texttemplate="%{text:.1f}",
+        textposition="outside",
+    )
+
+    fig.update_layout(
+        height=550,
+        yaxis={
+            "categoryorder": "array",
+            "categoryarray":
+                physical_display["Team"][::-1],
+        },
+        showlegend=False,
+        margin=dict(l=20, r=60, t=60, b=20),
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True,
+    )
+
+    # --------------------------------------------------------
+    # TEAM-LEVEL PHYSICAL ENGAGEMENT COMPONENT COMPARISON
+    # --------------------------------------------------------
+
+    st.markdown(
+        '<div class="section-title">'
+        'Team-level physical engagement components'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    st.caption(
+        "Raw measurements show the underlying attendance and "
+        "growth values. Percentile columns show each team's "
+        "relative standing among the 12 established markets."
+    )
+
+    physical_table = physical_display[
+        [
+            "Team",
+            "avg_attendance",
+            "avg_capacity_utilization",
+            "attendance_growth",
+            "capacity_utilization_growth",
+            "avg_attendance_percentile",
+            "avg_capacity_utilization_percentile",
+            "attendance_growth_percentile",
+            "capacity_utilization_growth_percentile",
+            "physical_engagement_score",
+        ]
+    ].copy()
+
+    physical_table = physical_table.rename(
+        columns={
+            "avg_attendance": "Average attendance",
+            "avg_capacity_utilization":
+                "Average capacity utilization",
+            "attendance_growth": "Attendance growth",
+            "capacity_utilization_growth":
+                "Capacity utilization growth",
+            "avg_attendance_percentile":
+                "Attendance percentile",
+            "avg_capacity_utilization_percentile":
+                "Utilization percentile",
+            "attendance_growth_percentile":
+                "Attendance growth percentile",
+            "capacity_utilization_growth_percentile":
+                "Utilization growth percentile",
+            "physical_engagement_score":
+                "Final Physical Score",
+        }
+    )
+
+    # Format raw values for readability.
+    physical_table["Average attendance"] = (
+        physical_table["Average attendance"].round(0)
+    )
+
+    percentage_columns = [
+        "Average capacity utilization",
+        "Attendance growth",
+        "Capacity utilization growth",
+    ]
+
+    for column in percentage_columns:
+        physical_table[column] = (
+            physical_table[column] * 100
+        ).round(1).astype(str) + "%"
+
+    percentile_columns = [
+        "Attendance percentile",
+        "Utilization percentile",
+        "Attendance growth percentile",
+        "Utilization growth percentile",
+        "Final Physical Score",
+    ]
+
+    physical_table[percentile_columns] = (
+        physical_table[percentile_columns].round(1)
+    )
+
+    st.dataframe(
+        physical_table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    # --------------------------------------------------------
+    # DALLAS PHYSICAL ENGAGEMENT COMPONENTS
+    # --------------------------------------------------------
+
+
+    dallas_physical = physical_established[
+        physical_established["team_id"] == "DAL"
+    ]
+
+    if not dallas_physical.empty:
+
+        row = dallas_physical.iloc[0]
+
+        component_data = pd.DataFrame({
+            "Component": [
+                "Average attendance",
+                "Capacity utilization",
+                "Attendance growth",
+                "Utilization growth",
+            ],
+            "Percentile": [
+                row["avg_attendance_percentile"],
+                row["avg_capacity_utilization_percentile"],
+                row["attendance_growth_percentile"],
+                row["capacity_utilization_growth_percentile"],
+            ],
+        })
+
+        fig = px.bar(
+            component_data,
+            x="Component",
+            y="Percentile",
+            text="Percentile",
+            labels={
+                "Percentile":
+                    "Percentile among established markets",
+            },
+            title="Dallas physical engagement components",
+        )
+
+        fig.update_traces(
+            texttemplate="%{text:.1f}",
+            textposition="outside",
+        )
+
+        fig.update_yaxes(
+            range=[0, 100],
+            ticksuffix="%",
+        )
+
+        fig.update_layout(
+            height=450,
+            showlegend=False,
+        )
+
+        st.plotly_chart(
+            fig,
+            use_container_width=True,
+        )
+
+        dallas_rank = (
+            physical_display["physical_engagement_score"]
+            .rank(method="min", ascending=False)
+        )
+
+        dallas_rank_value = dallas_rank[
+            physical_display["team_id"] == "DAL"
+        ].iloc[0]
+
+        st.success(
+            f"Dallas ranks #{int(dallas_rank_value)} out of "
+            f"{len(physical_display)} established markets in "
+            "physical engagement. The component chart shows "
+            "which areas contribute most and least to its score."
+        )
+
+    with st.expander("Assumptions & Limitations"):
+        st.markdown("""
+        - Attendance and capacity utilization are used as proxies for in-person fan engagement.
+        - Average attendance and utilization are calculated from the available season-level data.
+        - Growth compares the 2025–2026 recent period with the 2023–2024 baseline period.
+        - The score gives equal weight to four percentile-ranked components: average attendance, average capacity utilization, attendance growth, and capacity utilization growth.
+        - Percentile scores reflect relative performance among the teams included, not an absolute measure of engagement.
+        - Differences in arena size, scheduling, team performance, and reporting practices may affect comparisons.
+        """)
 
 # ============================================================
 # PAGE 3 — DIGITAL ENGAGEMENT
@@ -776,11 +1046,39 @@ elif page == "Digital Engagement":
 
     st.markdown(
         '<div class="section-description">'
-        'The Local Digital Engagement Score combines longitudinal '
+        'This page explores the Local Digital Engagement Score, which evaluates the local interest each team generates on Google Trends. The metric combines longitudinal '
         'growth, persistence, and recent momentum.'
         '</div>',
         unsafe_allow_html=True,
     )
+
+    with st.expander(" **What LDES measures and how to read its components** "):
+        st.markdown(
+            '''
+            LDES is a **relative 0–100 index** built from local Google Trends
+            search-interest patterns. It is intended to capture whether
+            interest in a franchise is growing, recurring over time, and
+            strengthening recently.
+
+            - **Growth (40%):** recent-period average versus the historical
+              baseline, calculated on a log scale.
+            - **Persistence (40%):** share of valid recent three-month
+              rolling windows whose average is above the historical mean.
+            - **Recent momentum (20%):** recent average compared with the
+              2023–2024 momentum baseline.
+
+            Each component is converted to a percentile rank among the
+            established markets before weighting. The historical baseline
+            is 2021–2024; the recent period begins in 2025 and runs through
+            the latest available month. An incomplete year is year-to-date,
+            not a full-year observation.
+
+            The component chart shows **percentile ranks**, not raw search
+            volume or percentage growth. A 90th-percentile value means the
+            component ranks above roughly 90% of the comparison group; it
+            does not mean search interest rose by 90%.
+            '''
+        )
 
     digital_display = digital_established.copy()
 
@@ -825,13 +1123,6 @@ elif page == "Digital Engagement":
     st.plotly_chart(
         fig,
         use_container_width=True,
-    )
-
-    st.markdown(
-        '<div class="section-title">'
-        'What drives Dallas digital engagement?'
-        '</div>',
-        unsafe_allow_html=True,
     )
 
     dallas_digital = digital_established[
@@ -894,7 +1185,57 @@ elif page == "Digital Engagement":
             "temporary spike."
         )
 
+    # --------------------------------------------------------
+    # TEAM-LEVEL LDES COMPONENT COMPARISON
+    # --------------------------------------------------------
 
+    st.markdown(
+        '<div class="section-title">'
+        'Team-level digital engagement components'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    st.caption(
+        "Each component is shown as a percentile rank among the "
+        "12 established markets. LDES is the final weighted score."
+    )
+
+    component_table = digital_display[
+        [
+            "Team",
+            "growth_percentile",
+            "persistence_percentile",
+            "momentum_percentile",
+            "ldes",
+        ]
+    ].copy()
+
+    component_table = component_table.rename(
+        columns={
+            "Team": "Team",
+            "growth_percentile": "Growth percentile",
+            "persistence_percentile": "Persistence percentile",
+            "momentum_percentile": "Momentum percentile",
+            "ldes": "Final LDES",
+        }
+    )
+
+    component_table = component_table.round(1)
+
+    st.dataframe(
+        component_table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    with st.expander("Assumptions & Limitations"):
+        st.markdown("""
+        - Search interest is normalized within each team's local media market, so scores should not be interpreted as directly comparable search volumes across DMAs.
+        - Search terms are selected to represent franchise-specific interest, but may not capture every way fans engage with a team.
+        - Recent-year data may cover only part of the year.
+        - Search activity does not necessarily translate into attendance, merchandise purchases, or viewership.
+        """)
 # ============================================================
 # PAGE 4 — ENGAGEMENT & PERFORMANCE
 # ============================================================
@@ -910,11 +1251,37 @@ elif page == "Engagement & Performance":
 
     st.markdown(
         '<div class="section-description">'
-        'Are stronger fan-engagement markets also the markets '
-        'with stronger on-court performance?'
+        'This page explores if there is a relationship between fan engagement and team performance. '
+        'You can select various engagement & team performance metric pairings and see how they correlate with each other.'
         '</div>',
         unsafe_allow_html=True,
     )
+
+    with st.expander("How to interpret the correlation statistics"):
+        st.markdown(
+            '''
+            **Pearson r** measures the direction and strength of a linear
+            relationship. It ranges from -1 to +1.
+            
+            In plain English: Pearson asks, "When one variable increases, 
+            does the other tend to increase or decrease by a relatively consistent amount?"
+
+            **Spearman r** measures the direction and strength of a
+            rank-based monotonic relationship. It also ranges from -1 to +1.
+
+            In plain English: Spearman asks, "Do teams that rank higher in one 
+            category generally rank higher in the other?"
+
+            **Sample size (n)** is the number of team-level observations.
+            **p-value** measures how surprising a result at least this
+            extreme would be under a null hypothesis of no association,
+            given the test assumptions. It is not proof of causation.
+
+            These are market-level correlations, not individual-fan
+            behavior. With only 12 established markets, results are
+            exploratory and can be sensitive to individual teams.
+            '''
+        )
 
     # --------------------------------------------------------
     # Relationship selector
@@ -973,6 +1340,12 @@ elif page == "Engagement & Performance":
             "causation. Digital engagement is measured at the "
             "team level, while performance is aggregated across "
             "the same longitudinal period."
+        )
+
+        st.caption(
+            "Read the correlation alongside its sample size and p-value. "
+            "A larger absolute correlation does not by itself establish "
+            "a reliable or causal effect."
         )
 
     # --------------------------------------------------------
@@ -1039,8 +1412,15 @@ elif page == "Engagement & Performance":
 
             st.success(
                 "Attendance growth and digital growth show a "
-                "strong positive association across the 12 "
-                "established markets."
+                "positive association in this 12-market sample. "
+                "This observational relationship does not establish "
+                "that growth in one measure causes growth in the other."
+            )
+
+            st.caption(
+                "Pearson r summarizes the linear association; Spearman r "
+                "summarizes the rank-based association. The displayed "
+                "p-value is for the Pearson correlation."
             )
 
     # --------------------------------------------------------
@@ -1063,7 +1443,7 @@ elif page == "Engagement & Performance":
         for _, row in perf.iterrows():
             metrics[row["metric"]] = row["value"]
 
-        col1, col2, col3, col4 = st.columns(4)
+        col1, col2, col3, col4, col5 = st.columns(5)
 
         with col1:
             st.metric(
@@ -1114,6 +1494,14 @@ elif page == "Engagement & Performance":
         unsafe_allow_html=True,
     )
 
+    with st.expander("Assumptions & Limitations"):
+        st.markdown("""
+        - Correlations describe associations, not causal relationships.
+        - The analysis includes a relatively small number of established WNBA markets, limiting statistical power.
+        - Team performance is represented by the selected win percentage and playoff measures, which do not capture every factor affecting fan engagement.
+        - Attendance and digital engagement may respond to external factors such as marketing, star players, local media coverage, and schedule changes.
+        - Results should be interpreted as exploratory rather than proof that one type of engagement causes another.
+        """)
 
 # ============================================================
 # FOOTER
